@@ -12,10 +12,13 @@
 $i = 0;
 while($i<10){
 
-    echo "<p>This is the ".$i."th line</p>";
-        $i++;
-}
-
+   // echo "<p>This is the ".$i."th line</p>";
 ?>
+    <p>This is the th line</p>
+<?php
+$i++;
+}
+?>
+
 </body>
 </html>
