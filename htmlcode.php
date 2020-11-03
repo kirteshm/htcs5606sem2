@@ -14,7 +14,7 @@ while($i<10){
 
    // echo "<p>This is the ".$i."th line</p>";
 ?>
-    <p>This is the th line</p>
+    <p>This is the <?php echo $i; ?>th line</p>
 <?php
 $i++;
 }
