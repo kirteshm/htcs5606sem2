@@ -27,5 +27,5 @@
 // show my result
 
     while ($row = $result->fetch_assoc()){
-        echo $row["id"];
+        echo $row["firstname"];
     }
