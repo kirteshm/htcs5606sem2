@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phpAndDatabase/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpAndDatabase/recieve.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpAndDatabase/recieve.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +38,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpAndDatabase" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\phpAndDatabase" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +60,7 @@
       <workItem from="1604350545572" duration="2605000" />
       <workItem from="1604431674428" duration="7776000" />
       <workItem from="1604518268775" duration="287000" />
-      <workItem from="1604518569142" duration="3486000" />
+      <workItem from="1604518569142" duration="5034000" />
     </task>
     <servers />
   </component>
