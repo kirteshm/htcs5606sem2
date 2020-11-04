@@ -3,9 +3,6 @@ $username = $_POST["username"];
 $password = $_POST["password"];
 $select = $_POST["mySelect"];
 
-echo "Username: " . $username;
-echo "<br>Password: " . $password;
-
 //create database connection
 
 $server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
