@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpAndDatabase/phpForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpAndDatabase/recieve.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <workItem from="1604350545572" duration="2605000" />
       <workItem from="1604431674428" duration="7776000" />
       <workItem from="1604518268775" duration="287000" />
-      <workItem from="1604518569142" duration="1389000" />
+      <workItem from="1604518569142" duration="2147000" />
     </task>
     <servers />
   </component>
@@ -75,10 +75,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604351770054" />
-    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604436968088">
+    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604520563737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604436968088" />
+    <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604520563737" />
     <state x="258" y="44" key="SettingsEditor" timestamp="1604519071288">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
