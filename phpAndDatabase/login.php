@@ -18,7 +18,7 @@ if ($conn->error) {
     echo "connected";
 }
 // create a query
-$sql = "select * from users where username = " . $username . " and password = " . $password;
+$sql = "select * from users where username = '" .$username. "' and password = '" .$password."'";
 
 //run a query
 $result = mysqli_query($conn, $sql);
