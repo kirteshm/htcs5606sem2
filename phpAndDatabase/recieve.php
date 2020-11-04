@@ -1,10 +1,10 @@
 <?php
 
-$username = $_POST["username"]; //inside the square brackets, should be the name of input box.
-$password = $_POST["password"];
-$number = $_POST["myNumber"];
-$Color = $_POST["myColor"];
-$select = $_POST["mySelect"];
+$username = $_GET["username"]; //inside the square brackets, should be the name of input box.
+$password = $_GET["password"];
+$number = $_GET["myNumber"];
+$Color = $_GET["myColor"];
+$select = $_GET["mySelect"];
 
 echo "Username: ".$username;
 echo "<br>Password: ".$password;
