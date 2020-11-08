@@ -3,7 +3,8 @@
 //start a session
 @session_start();
 //get the session's value
-$username = $_SESSION["username"];
-echo "Username:".$username;
+$message = $_SESSION["message"];
+echo "Message: ".$message;
+?>
 
 

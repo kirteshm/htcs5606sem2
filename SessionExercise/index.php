@@ -1,17 +1,21 @@
 <?php
 //start a session
-@session_start();
+//@session_start();
 /*set value to session variables
 $_SESSION["username"] = "kit";
 $_SESSION["password"] = "test123";
 $_SESSION["color"] = "red";
 $_SESSION["Address"] = "12 Mt Albert Road"; */
 
-if (isset($_POST["message"])){
-    echo "<p>I have a post message in this page</p>";
-}else{
-    echo "<p>Please post a message to me</p>";
-}
+    if (isset($_POST["message"])) {
+        echo "<p>I have a post message in this page</p>";
+        //session start
+        @session_start();
+        //set session veriable
+        $_SESSION["message"] = $_POST["message"];
+    } else {
+        echo "<p>Please post a message to me</p>";
+    }
 ?>
 
 <html lang="en">
