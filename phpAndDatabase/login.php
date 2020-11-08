@@ -17,7 +17,7 @@ if ($conn->error) {
 } else {
     echo "connected";
 }
-// create a query
+// create a query- select, update, insert, delete
 $sql = "select * from users where username = '" .$username. "' and password = '" .$password."'";
 
 //run a query
