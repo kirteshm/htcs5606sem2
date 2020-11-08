@@ -26,9 +26,13 @@ $result = mysqli_query($conn, $sql);
 // show my result
 
 if ($result->num_rows == 1) {
-    echo "You have Login";
+    echo "You are now Logged in";
     while ($row = $result->fetch_assoc()) {
         echo $row["firstname " . "lastname"];
+        //session start
+        @session_start();
+        //set session variable
+        $_SESSION["firstname"] = $row["firstname"];
     }
 } else {
     echo "Wrong username or password";
