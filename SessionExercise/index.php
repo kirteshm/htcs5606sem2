@@ -29,6 +29,13 @@ if (isset($_POST["message"])){
             <li><a href="page5.php">Page 5</a></li>
         </ul>
 
+        <form action="<?php $_SERVER["PHP_SELF"];?>" method = "post">
+
+            <input name="message" type="text" placeholder="message here">
+            <input type="submit" value="Post">
+
+        </form>
+
     </body>
 
 </html>
