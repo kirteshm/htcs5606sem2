@@ -9,7 +9,8 @@
 
         <div id="header">
             <?php include "menu.php"; ?>,
-            Login, Pictures
+            Login,
+            <?php include "headerimage.php"; ?>
         </div>
         <div id="main">Contents</div>
         <div id="footer">Contact Information</div>
