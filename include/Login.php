@@ -1,37 +1,43 @@
 <?php
-if (isset($_POST["message"])) {
-    echo "<p>I have a post message in this page</p>";
-    //session start
-    @session_start();
-    //set session veriable
-    $_SESSION["message"] = $_POST["message"];
+$username = $_POST["username"];
+$password = $_POST["password"];
+$select = $_POST["mySelect"];
+
+//create database connection
+
+$server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "h1r174kgefa2bwv1";
+$dbpassword = "nz1tdqgzvtixcxel";
+$dbname = "dry1psur1w11ayhb";
+
+$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+
+if ($conn->error) {
+    echo $conn->error;
 } else {
-    echo "<p>Please post a message to me</p>";
+    echo "connected";
 }
-?>
+// create a query- select, update, insert, delete
+$sql = "select * from users where username = '" .$username. "' and password = '" .$password."'";
 
-<html lang="en">
-<head>
-    <title>Session Exercise</title>
-</head>
+//run a query
+$result = mysqli_query($conn, $sql);
 
-<body>
+// show my result
 
-<ul>
-    <li><a href="page1.php">Page 1</a></li>
-    <li><a href="page2.php">Page 2</a></li>
-    <li><a href="Login.php">Page 3</a></li>
-    <li><a href="page4.php">Page 4</a></li>
-    <li><a href="page5.php">Page 5</a></li>
-</ul>
+if ($result->num_rows == 1) {
+    echo "You are now Logged in";
+    while ($row = $result->fetch_assoc()) {
+        echo $row["firstname " . "lastname"];
+        //session start
+        @session_start();
+        //set session variable
+        $_SESSION["firstname"] = $row["firstname"];
+    }
+} else {
+    echo "Wrong username or password";
+}
 
-<form action="<?php $_SERVER["PHP_SELF"];?>" method = "post">
-
-    <input name="message" type="text" placeholder="message here">
-    <input type="submit" value="Post">
-
-</form>
-
-</body>
-
-</html>
+while ($row = $result->fetch_assoc()) {
+    echo $row["firstname"];
+}
