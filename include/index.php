@@ -6,7 +6,9 @@
     </head>
     <body>
 
-        <div id="header">Menu, Login, Pictures</div>
+        <div id="header">
+            <?php include "page1.php"; ?>,
+            Login, Pictures</div>
         <div id="main">Contents</div>
         <div id="footer">Contact Information</div>
 
