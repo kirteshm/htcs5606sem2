@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/page3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
   </component>
   <component name="ProjectId" id="1jkTlv02mZqhvVMLtCJczoh9MfM" />
   <component name="ProjectLevelVcsManager">
@@ -71,7 +75,8 @@
       <workItem from="1604518268775" duration="287000" />
       <workItem from="1604518569142" duration="7593000" />
       <workItem from="1604864272130" duration="7264000" />
-      <workItem from="1604950523119" duration="6836000" />
+      <workItem from="1604950523119" duration="7095000" />
+      <workItem from="1605037404430" duration="1410000" />
     </task>
     <servers />
   </component>
