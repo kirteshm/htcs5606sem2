@@ -41,7 +41,12 @@
             <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
           </p>
         </div>
-
+          <div id="header">
+              <?php include "products.php"; ?>
+              <?php include "login.php"; ?>
+          </div>
+          <div id="main">Contents</div>
+          <div id="footer">Contact Information</div>
       </td>
       <td id="rightside">
         <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
