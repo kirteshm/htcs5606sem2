@@ -34,13 +34,7 @@
       </td>
       <td id="middlecontent">
 
-        <div class="product">
-          <img src="images/dog1.png">
-          <p>$35.20 ea</p>
-          <p>Qty: <input class="qty" id="breadQty" type="number">
-            <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
-          </p>
-        </div>
+
           <div id="header">
               <?php include "products.php"; ?>
               <?php include "login.php"; ?>
