@@ -41,34 +41,7 @@
             <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
           </p>
         </div>
-        <div class="product">
-          <img src="images/dog2.png">
-          <p>$33.90 ea</p>
-          <p>Qty: <input class="qty" id="cheeseQty" type="number">
-            <button class = "addBut" id="addCheese" onclick="addToCart(this)">Add to Cart</button>
-          </p>
-        </div>
-        <div class="product">
-          <img src="images/dog3.png">
-          <p>$39.00 ea</p>
-          <p>Qty: <input class="qty" id="spreadQty" type="number">
-            <button class = "addBut" id="addSpread" onclick="addToCart(this)">Add to Cart</button>
-          </p>
-        </div>
-        <div class="product">
-          <img src="images/cat1.jpg">
-          <p>$24.50 ea</p>
-          <p>Qty: <input class="qty" id="milk1Qty" type="number">
-            <button class = "addBut" id="addMilk1" onclick="addToCart(this)" price="24.50">Add to Cart</button>
-          </p>
-        </div>
-        <div class="product">
-          <img src="images/cat2.jpg">
-          <p>$29.32 ea</p>
-          <p>Qty: <input class="qty" id="milk2Qty" type="number">
-            <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="29.32">Add to Cart</button>
-          </p>
-        </div>
+
       </td>
       <td id="rightside">
         <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
