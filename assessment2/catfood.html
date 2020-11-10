@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PetFoodShop CatFood</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body onload="moveAd(), moveText(), invoice()">
+<div class="header">
+    <img src="images/catsmain.jpg" width="50%" height="50%">
+    <div class="logo"><img src="images/logo.png" alt="Petfood Logo"></div>
+    <div id="dogfp"><span id="logoText">Cat Food Products</span></div>
+</div>
+<div id="nav">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="dogfood.html">Dog Food</a></li>
+        <li><a class="active">Cat Food</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="register.html">Register Now</a></li>
+    </ul>
+</div>
+<div id="Main">
+    <table id="maintable">
+        <tr>
+            <td id="leftside">
+                <div id="sideAdv">
+                    <img src="images/Background.jpg" id="sideImage">
+                    <p id="text1">Cat Food</p>
+                    <p id="text2">The Pet Food Store</p>
+                </div>
+            </td>
+            <td id="middlecontent">
+
+                <div class="product">
+                    <img src="images/cat1.jpg">
+                    <p>$24.50 ea</p>
+                    <p>qty:<input class="qty" id="milk1Qty" type="number">
+                        <button class="addBut" id="addMilk1" onclick="addToCart(this)" price="24.50">Add to Cart</button>
+                    </p>
+                </div>
+                <div class="product">
+                    <img src="images/cat2.jpg">
+                    <p>$29.32 ea</p>
+                    <p>qty:<input class="qty" id="milk2Qty" type="number">
+                        <button class="addBut" id="addMilk2" onclick="addToCart(this)" price="29.32">Add to Cart</button>
+                    </p>
+                </div>
+
+            </td>
+            <td id="rightside">
+                <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
+                <div id="cartDiv"></div>
+                <button id="showInvoiceBut">Invoice</button>
+                <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
+                <p id="time"></p>
+
+                <script>
+                    var myVar = setInterval(myTimer, 1000);
+                    function myTimer() {
+                        var d = new Date();
+                        document.getElementById("time").innerHTML = "Current Time " + d.toLocaleTimeString();
+                    }
+                </script>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- The inVoice Page -->
+<div id="voicePage" class="voice">
+
+    <!-- Modal content -->
+    <div id="voice-content">
+        <span class="close">&times;</span>
+        <p>Invoice <span style="font-weight: bold">Total</span></p>
+    </div>
+
+</div>
+
+<div id="footer">&copy; The Pet Food Store Ltd</div>
+
+</body>
+</html>

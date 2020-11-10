@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/include/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/catfood.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/css/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/css/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/css/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/dogfood.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/aboutus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/catsmain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/dog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/dog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/dog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/food2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/main2image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/mainimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/petfoodmain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/petfoodmain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/images/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page5.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +73,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SessionExercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -56,6 +83,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\SessionExercise" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\phpAndDatabase" />
     </key>
@@ -75,7 +103,7 @@
       <workItem from="1604518569142" duration="7593000" />
       <workItem from="1604864272130" duration="7264000" />
       <workItem from="1604950523119" duration="7095000" />
-      <workItem from="1605037404430" duration="3005000" />
+      <workItem from="1605037404430" duration="3619000" />
     </task>
     <servers />
   </component>
