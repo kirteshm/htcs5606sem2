@@ -41,12 +41,14 @@
           <div id="footer">Contact Information</div>
       </td>
       <td id="rightside">
-        <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
+
         <div id="cartDiv"></div>
+          <h4>Please Login</h4>
           <?php include "login.php"; ?>
 
         <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
         <p id="time"></p>
+          <p span style="font-size: 20px" style align="font-weight: bolder">Your Cart:</p>
           <button id="showInvoiceBut">Invoice</button>
 
         <script>
