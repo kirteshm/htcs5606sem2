@@ -44,9 +44,10 @@
         <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
         <div id="cartDiv"></div>
           <?php include "login.php"; ?>
-        <button id="showInvoiceBut">Invoice</button>
+
         <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
         <p id="time"></p>
+          <button id="showInvoiceBut">Invoice</button>
 
         <script>
           var myVar = setInterval(myTimer, 1000);
