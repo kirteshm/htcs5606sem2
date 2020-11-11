@@ -44,7 +44,7 @@ if (!isset($_SESSION["userID"])) {
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
 
         <input name="username" type="text" placeholder="Username">
-        <input name="password" type="password" placeholder="Password"><br>
+        <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
 
     </form>

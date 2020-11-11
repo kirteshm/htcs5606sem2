@@ -56,7 +56,6 @@
             var d = new Date();
             document.getElementById("time").innerHTML = "Current Local Time " + d.toLocaleTimeString();
           }
-
         </script>
       </td>
     </tr>
