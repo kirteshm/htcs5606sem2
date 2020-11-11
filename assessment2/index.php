@@ -36,8 +36,7 @@
           <div id="header">
               <?php include "products.php"; ?>
           </div>
-          //<div id="main">Contents</div>
-          //<div id="footer">Contact Information</div>
+
       </td>
       <td id="rightside">
 
