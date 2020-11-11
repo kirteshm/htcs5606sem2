@@ -35,7 +35,7 @@
       <td id="middlecontent">
           <div id="header">
               <?php include "products.php"; ?>
-              <?php include "login.php"; ?>
+
           </div>
           <div id="main">Contents</div>
           <div id="footer">Contact Information</div>
@@ -43,6 +43,7 @@
       <td id="rightside">
         <p span style="font-size: 30px" style align="font-weight: bolder">Your Cart:</p>
         <div id="cartDiv"></div>
+          <?php include "login.php"; ?>
         <button id="showInvoiceBut">Invoice</button>
         <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
         <p id="time"></p>
