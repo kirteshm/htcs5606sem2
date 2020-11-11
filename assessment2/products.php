@@ -14,7 +14,7 @@ $result = mysqli_query($conn, $sql);
 while ($row = $result->fetch_assoc()){
     //echo $row["id"]; // commented out so the id does not show on the page
     echo $row["productName"];
-    echo $row["pricePerUnit"];
+
     ?>
     <div class="product">
           <img src="<?php echo $row["productImage"];?>">
