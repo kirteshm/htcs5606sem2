@@ -13,11 +13,12 @@ $result = mysqli_query($conn, $sql);
 
 while ($row = $result->fetch_assoc()){
     //echo $row["id"]; // commented out so the id does not show on the page
-    echo $row["productName"];
+
 
     ?>
     <div class="product">
           <img src="<?php echo $row["productImage"];?>">
+          <p>$<?php echo $row["productName"];?></p>
           <p>$<?php echo $row["pricePerUnit"];?> ea</p>
           <p>Qty: <input class="qty" id="breadQty" type="number">
             <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
