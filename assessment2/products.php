@@ -12,7 +12,7 @@ $sql = "select * from product";
 $result = mysqli_query($conn, $sql);
 
 while ($row = $result->fetch_assoc()){
-    echo $row["id"];
+    //echo $row["id"];
     echo $row["productName"];
     ?>
     <div class="product">

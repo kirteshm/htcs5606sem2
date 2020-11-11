@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assessment2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assessment2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../WebContent" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -80,7 +80,8 @@
       <workItem from="1604518569142" duration="7593000" />
       <workItem from="1604864272130" duration="7264000" />
       <workItem from="1604950523119" duration="7095000" />
-      <workItem from="1605037404430" duration="7615000" />
+      <workItem from="1605037404430" duration="8262000" />
+      <workItem from="1605073383036" duration="1305000" />
     </task>
     <servers />
   </component>
@@ -104,10 +105,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="260" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1604953300441" />
-    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1604351770054">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="686" y="199" key="FileChooserDialogImpl" timestamp="1605073749750">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604351770054" />
+    <state x="686" y="199" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605073749750" />
     <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604950943629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

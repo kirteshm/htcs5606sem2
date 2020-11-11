@@ -33,8 +33,6 @@
         </div>
       </td>
       <td id="middlecontent">
-
-
           <div id="header">
               <?php include "products.php"; ?>
               <?php include "login.php"; ?>
