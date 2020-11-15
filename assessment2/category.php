@@ -8,7 +8,7 @@ $dbname = "dry1psur1w11ayhb";
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 //2. Create the Query
-$sql = "select * from category";
+$sql = "select * from catagory";
 
  //
 //3. Run the Query on the connection
