@@ -34,7 +34,6 @@
       </td>
       <td id="middlecontent">
           <div id="header">
-              <?php include "category.php"; ?>
               <?php include "products.php"; ?>
           </div>
 
@@ -44,6 +43,7 @@
         <div id="cartDiv"></div>
           <h4>Please Login</h4>
           <?php include "login.php"; ?>
+          <?php include "category.php"; ?>
 
 
         <p id="time"></p>

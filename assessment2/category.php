@@ -20,4 +20,5 @@ $result = mysqli_query($conn, $sql);
 while ($row = $result->fetch_assoc()){
     ?>
 <li><a href=""><?php echo $row["name"]; ?></a></li>
+<?php
 }
