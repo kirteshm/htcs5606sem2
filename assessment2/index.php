@@ -35,7 +35,6 @@
       <td id="middlecontent">
           <div id="header">
               <?php include "products.php"; ?>
-              <?php include "catagory.php"; ?>
           </div>
 
       </td>
