@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 //1. connect to database
 $server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -22,5 +19,5 @@ $result = mysqli_query($conn, $sql);
 //4. show the result
 while ($row = $result->fetch_assoc()){
     ?>
-<li><a href="><?php echo $row["name"]; ?></li>
+<li><a href=""><?php echo $row["name"]; ?></a></li>
 }
