@@ -13,7 +13,7 @@ $sql = "select * from catagory";
  //
 //3. Run the Query on the connection
 
-$result = mysqli_query($conn,$sql);
+$result = mysqli_query($conn, $sql);
 
 //4. show the result
 while ($row = $result->fetch_assoc()){
