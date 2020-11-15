@@ -1,4 +1,9 @@
 <?php
+// take input from category
+if (isset($_GET["category"])){
+    echo "<h3>".$_GET["category"]."</h3>";
+}
+
 
 $server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbusername = "h1r174kgefa2bwv1";
