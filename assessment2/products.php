@@ -10,7 +10,7 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 // take input from category
 if (isset($_GET["category"])) {
-    echo "<h4>" . $_GET["category"] . "</h4>";
+    //echo "<h4>" . $_GET["category"] . "</h4>";
     $sql = "select * from product where catagory= " . $_GET["category"];
 } else {
     $sql = "select * from product";
