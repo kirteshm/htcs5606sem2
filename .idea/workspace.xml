@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assessment2/catagory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +48,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../WebContent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assessment2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\SessionExercise" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\phpAndDatabase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +82,8 @@
       <workItem from="1604950523119" duration="7095000" />
       <workItem from="1605037404430" duration="8262000" />
       <workItem from="1605073383036" duration="4280000" />
-      <workItem from="1605123407893" duration="1497000" />
+      <workItem from="1605123407893" duration="4120000" />
+      <workItem from="1605468754442" duration="1428000" />
     </task>
     <servers />
   </component>
@@ -112,10 +112,10 @@
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604351770054" />
     <state x="686" y="199" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605073749750" />
-    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604950943629">
+    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1605469606271">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604950943629" />
+    <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1605469606271" />
     <state x="258" y="44" key="SettingsEditor" timestamp="1604950542803">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
