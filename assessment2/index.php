@@ -16,7 +16,7 @@
 <div id = "nav">
   <ul>
     <li><a class="active">Home</a></li>
-    <li><a href="dogfood.html">Dog Food</a></li>
+    <li><a href="index.php?category=<? echo $row["id"]; ?>"><?php echo $row["name"]; ?>Dog Food</a></li>
     <li><a href="catfood.html">Cat Food</a></li>
     <li><a href="aboutus.html">About Us</a></li>
     <li><a href="register.html">Register Now</a></li>
