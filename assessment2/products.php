@@ -27,8 +27,14 @@ while ($row = $result->fetch_assoc()) {
         <img src="<?php echo $row["productImage"]; ?>">
         <p><?php echo $row["productName"]; ?></p>
         <p>$<?php echo $row["pricePerUnit"]; ?> ea</p>
+        <form action="" method="post">
+            <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
+            <input name="qty" type="number" placeholder="Quantity">
+            <input type="submit" value="Add to Cart">
+
+        </form>
         <p>Qty: <input class="qty" id="breadQty" type="number">
-            <button class="addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
+           <button class="addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
         </p>
     </div>
     <?php
