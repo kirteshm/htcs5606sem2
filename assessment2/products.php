@@ -24,8 +24,8 @@ while ($row = $result->fetch_assoc()) {
 
     ?>
     <div class="product">
-        <img src="<?php echo $row["productImage"]; ?>">
         <p><?php echo $row["productName"]; ?></p>
+        <img src="<?php echo $row["productImage"]; ?>">
         <p>$<?php echo $row["pricePerUnit"]; ?> ea</p>
         <form action="" method="post">
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
