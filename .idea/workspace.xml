@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/assessment2/registernow.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assessment2/registernow.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1605123407893" duration="4120000" />
       <workItem from="1605468754442" duration="6843000" />
       <workItem from="1605488328500" duration="156000" />
-      <workItem from="1605555143062" duration="2083000" />
+      <workItem from="1605555143062" duration="2732000" />
     </task>
     <servers />
   </component>

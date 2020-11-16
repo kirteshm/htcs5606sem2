@@ -21,10 +21,15 @@ $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password
 VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phonenumber')";
 
 //run the query
-mysqli_query($conn, $sql);
 
-echo "Welcome, you are now registered";
-echo "<a href='index.php'>Back to Homepage</a>";
+if (mysqli_query($conn, $sql)){
+    echo "Welcome, You are now registered";
+    echo "<a href='index.php'>Back to Homepage</a>";
+}else{
+    echo "Please Try registering again with all correct details. Thank you";
+}
+
+
 
 
 
