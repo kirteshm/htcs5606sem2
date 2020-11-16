@@ -25,6 +25,7 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 //run the query
 
     if (mysqli_query($conn, $sql)){
+
         echo "Welcome, You are now registered";
         echo "<a href='index.php'>Back to Homepage</a>";
     }
@@ -36,7 +37,7 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 }
 
 else{
-    echo "Please fill in all the details in the form";
+    echo "Please fill in all the details in the Registration form";
 }
 
 
