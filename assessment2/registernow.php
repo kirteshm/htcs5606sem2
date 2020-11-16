@@ -35,7 +35,7 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 }
 
 else{
-    echo "Please fill in all the details in the form"
+    echo "Please fill in all the details in the form";
 }
 
 
