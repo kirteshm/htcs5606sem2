@@ -7,7 +7,7 @@ $password = $_POST["password"];
 $address = $_POST["address"];
 $phonenumber = $_POST["phoneNumber"];
 
-if ($firstname == "" || $lastname == "" || $username == "" || $password == "" || $address == "" || $phonenumber == ""){
+if ($firstname == "" || $lastname == "" || $username == "" || $password == "" || $address == "" || $phonenumber == "") {
 
     //create database connection
 
@@ -24,13 +24,10 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 
 //run the query
 
-    if (mysqli_query($conn, $sql)){
-        echo "Welcome, You are now registered";
-        echo "<a href='index.php'>Back to Homepage</a>";
-    }else{
-        echo "Please Try registering again with all correct details. Thank you";
-    }
+    mysqli_query($conn, $sql);
 
+        echo "Welcome, You are now registered"; <br>
+        echo "<a href='index.php'>Back to Homepage</a>";
 
 }
 
