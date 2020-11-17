@@ -12,5 +12,8 @@ while ($i<sizeof($orderedProductsIDs)){
     $orderedProductsQtys = $orderedProductsQtys[$i];
     echo "<p>ID: $orderedProductsIDs and Qty: $orderedProductsQtys</p>";
     $i++;
+}
+
+function getProductNameByProductID(){
 
 }
