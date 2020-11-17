@@ -45,7 +45,14 @@
           <?php include "login.php"; ?><br>
           <?php include "category.php"; ?>
           <li><a href="Cart.php">Shopping Cart</a></li>
-
+          <?php
+          @session_start();
+            if (isset($_SESSION["userID"])){
+              ?>
+          <li><a href="viewOrder.php">My Orders</a></li>
+          <?php
+          }
+          ?>
 
         <p id="time"></p>
           <p span style="font-size: 20px" style align="font-weight: bolder">Your Cart:</p>
