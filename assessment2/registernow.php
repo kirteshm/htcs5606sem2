@@ -7,7 +7,7 @@ $password = $_POST["password"];
 $address = $_POST["address"];
 $phonenumber = $_POST["phoneNumber"];
 
-if ($firstname == "" || $lastname == "" || $username == "" || $password == "" || $address == "" || $phonenumber == "") {
+if ($firstname != "" && $lastname != "" && $username != "" && $password != "" && $address != "" && $phonenumber != "") {
 
     //create database connection
 
