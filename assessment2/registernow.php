@@ -7,7 +7,7 @@ $password = $_POST["password"];
 $address = $_POST["address"];
 $phonenumber = $_POST["phoneNumber"];
 
-if ($firstname == "" || $lastname == "" || $username == "" || $password == "" || $address == "" || $phonenumber == ""){
+if ($firstname == "" || $lastname == "" || $username == "" || $password == "" || $address == "" || $phonenumber == "") {
 
     //create database connection
 
@@ -20,16 +20,15 @@ if ($firstname == "" || $lastname == "" || $username == "" || $password == "" ||
 
 //creat a query
     $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password`, `address`, `phoneNumber`) 
-VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phonenumber')";
+VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phonenumber')";
 
 //run the query
 
-    if (mysqli_query($conn, $sql)){
+    if (mysqli_query($conn, $sql)) {
 
         echo "Welcome, You are now registered";
         echo "<a href='index.php'>Back to Homepage</a>";
-    }
-    else{
+    } else {
         echo "Please Try registering again with all correct details. Thank you";
     }
 
