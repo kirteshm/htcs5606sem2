@@ -16,8 +16,9 @@
 <div id = "nav">
   <ul>
     <li><a class="active" href="index.php<? echo $row["id"]; ?>"><?php echo $row["name"]; ?>Home</a></li>
-    <li><a href="index.php?category=1<? echo $row["id"]; ?>"><?php echo $row["name"]; ?>Dog Food</a></li>
-    <li><a href="index.php?category=2<? echo $row["id"]; ?>"><?php echo $row["name"]; ?>Cat Food</a></li>
+<!--    <li><a href="index.php?category=1--><?// echo $row["id"]; ?><!--">--><?php //echo $row["name"]; ?><!--Dog Food</a></li>-->
+<!--    <li><a href="index.php?category=2--><?// echo $row["id"]; ?><!--">--><?php //echo $row["name"]; ?><!--Cat Food</a></li>-->
+   <?php include "category.php";?>
     <li><a href="aboutus.html">About Us</a></li>
     <li><a href="registernow.html">Register Now</a></li>
   </ul>
