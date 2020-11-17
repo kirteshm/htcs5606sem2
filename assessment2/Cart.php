@@ -13,9 +13,19 @@ while ($i<sizeof($orderedProductsIDs)){
     $prouductName = getProductNameByProductID($orderedProductsID);
     $price = getProductPriceByProductID($orderedProductsID);
 
-    echo "<p>Name: $prouductName and Qty: $orderedProductsQty Price: $price</p>";
+    echo "<p>Name: $prouductName and Qty: $orderedProductsQty Unit Price: $price
+    Price: ($price*$orderedProductsQty)</p>";
+    $total = $total + ($price*$orderedProductsQty);
     $i++;
 }
+echo "<p>Total: $total</p>";
+
+if ($total>300){
+
+    }
+
+
+
 /**
  * @return mysqli
  */
