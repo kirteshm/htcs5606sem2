@@ -10,10 +10,77 @@ while ($i<sizeof($orderedProductsIDs)){
 
     $orderedProductsID = $orderedProductsIDs[$i];
     $orderedProductsQty = $orderedProductsQtys[$i];
-    echo "<p>ID: $orderedProductsID and Qty: $orderedProductsQty</p>";
+    $prouductName = getProductNameByProductID($orderedProductsID);
+    $price = getProductPriceByProductID($orderedProductsID);
+
+    echo "<p>Name: $orderedProductsID and Qty: $orderedProductsQty Price: $price</p>";
     $i++;
 }
+/**
+ * @return mysqli
+ */
+function createDatabaseConnection(){
+    //create database connection
+    $server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "h1r174kgefa2bwv1";
+    $dbpassword = "nz1tdqgzvtixcxel";
+    $dbname = "dry1psur1w11ayhb";
 
-function getProductNameByProductID(){
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+    return $conn;
 
+}
+
+/**
+ * @name getProductNameByProductID
+ * @param $productID
+ * @return Name of product
+ */
+function getProductNameByProductID($productID)
+{
+    //create a connection
+
+    $conn = createDatabaseConnection();
+
+    //creat a query
+
+    $sql = "select productName from product where id=$productID";
+
+    //run the query
+
+    $result = mysqli_query($conn, $sql);
+
+    //show result
+
+    while ($row = $result->fetch_assoc()) {
+        $name = $row["productName"];
+    }
+    return $name;
+}
+
+/**
+ * @name getProductPriceByProductID
+ * @param $productID
+ * @return Product Price
+ */
+function getProductPriceByProductID($productID){
+
+    //create a connection using function
+
+    $conn = createDatabaseConnection();
+
+    //creat a query
+
+    $sql = "select pricePerUnit from product where id=$productID";
+
+    //run the query
+
+    $result = mysqli_query($conn, $sql);
+
+    //show result
+
+    while ($row = $result->fetch_assoc()) {
+        $price = $row["pricePerUnit"];
+    }
+    return $price;
 }
