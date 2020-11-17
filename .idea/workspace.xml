@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessment2/addToCart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/catfood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/dogfood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessment2/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +55,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\SessionExercise" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\phpAndDatabase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +85,8 @@
       <workItem from="1605123407893" duration="4120000" />
       <workItem from="1605468754442" duration="6843000" />
       <workItem from="1605488328500" duration="156000" />
-      <workItem from="1605555143062" duration="6465000" />
+      <workItem from="1605555143062" duration="7548000" />
+      <workItem from="1605588807037" duration="1357000" />
     </task>
     <servers />
   </component>
