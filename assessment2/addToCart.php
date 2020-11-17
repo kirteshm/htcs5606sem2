@@ -38,3 +38,7 @@ else{
 // Put the new ordered product list back to session variable.
 $_SESSION["orderedProductIds"] = $orderedProductsIDs;
 $_SESSION["orderedProductQtys"] = $orderedProductsQtys;
+
+//go back to previous page code once added
+
+header('location: ' . $_SERVER['HTTP_REFERER']);

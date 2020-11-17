@@ -44,6 +44,7 @@
           <h4>Please Login</h4>
           <?php include "login.php"; ?><br>
           <?php include "category.php"; ?>
+          <li><a href="Cart.php">Shopping Cart</a></li>
 
 
         <p id="time"></p>
