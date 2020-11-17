@@ -1,5 +1,5 @@
 <?php
-
+@session_start();
 
 $server = "c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbusername = "h1r174kgefa2bwv1";
