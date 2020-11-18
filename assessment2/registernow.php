@@ -25,9 +25,12 @@ VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phon
 //run the query
 
     if (mysqli_query($conn, $sql)) {
-
-        echo "Welcome, You are now registered";
-        echo "<a href='index.php'>Back to Homepage</a>";
+        ?>
+        <div class='welcome'>
+        <h2>Welcome, You are now registered</h2>;
+            <a href='index.php'>Back to Homepage</a>;
+        </div>
+         <?php
     } else {
         echo "Please Try registering again with all correct details. Thank you";
     }
