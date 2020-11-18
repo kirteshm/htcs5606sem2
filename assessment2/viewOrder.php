@@ -24,9 +24,10 @@ $result = mysqli_query($conn, $sql);
 
 //show the first query
 while ($row = $result ->fetch_assoc()){
-    echo "<h3>Order Number: ".$row["orderID"]."</h3>";
-    echo "<h3>Shipping Address: ".$row["shipAddress"]."</h3>";
-    echo "<h3>Time: ".$row["orderdate"]."</h3>";
+    echo "<h2>Invoice - The Pet Food Store</h2>"
+    echo "<h4> Your order number is: ".$row["orderID"]."</h3>";
+    echo "<h4>Shipping Address: ".$row["shipAddress"]."</h4>";
+    echo "<h2>Time: ".$row["orderdate"]."</h2>";
 
     //second query
     $sql2 = "select * from orderline where orderID = ".$row["orderID"];
