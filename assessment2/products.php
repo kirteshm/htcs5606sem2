@@ -29,8 +29,10 @@ while ($row = $result->fetch_assoc()) {
         <p>$<?php echo $row["pricePerUnit"]; ?> ea</p>
         <form action="addToCart.php" method="post">
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <input name="qty" type="number" size="10" placeholder="Quantity" min="0">
-            <input type="submit" size="10" value="Add to Cart">
+            <label>
+                <input name="qty" type="number" placeholder="Quantity" min="0" size="6">
+            </label>
+            <input type="submit" value="Add to Cart" size="10">
 
         </form>
 
