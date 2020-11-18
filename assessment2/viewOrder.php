@@ -30,7 +30,7 @@ function createDatabaseConnection()
 
         echo "<h2 align='center'>Order Received</h2>";
         echo "<p align='center'>Time: " . $row["orderdate"] . "</p>";
-        echo "<h3>The Pet Food Store</h3>";
+        echo "<h3>The Pet Food Store - Order ID: ". $row["orderID"]."</h3>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
 
@@ -41,8 +41,7 @@ function createDatabaseConnection()
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
         echo " <table style='width:90%'>
-               <tr style='border: Background' >
-               <th>Order ID  </th>
+               <tr style=border:10px >
                <th>Product Name  </th>
                <th>Product Quantity </th>
                <th>Total Price </th>
@@ -55,8 +54,7 @@ function createDatabaseConnection()
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
          echo "
-               <tr style='border: red'>  
-               <td align='center'>".$row["orderID"]."</td>
+               <tr style='border: 10px'>  
                <td align='center'>$name</td>
                <td align='center'>".$row2["Qty"]."</td>
                <td align='center'>$$totalprice</td>
