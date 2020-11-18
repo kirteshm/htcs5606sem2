@@ -39,7 +39,7 @@ function createDatabaseConnection()
 
     while ($row2 = $result2->fetch_assoc()) {
         $name = getProductNameByProductID($row2["productID"]);
-        echo "<p>ID: " . $name . " Qty: " . $row2["Qty"] . "</p>";
+        echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
 
     }
