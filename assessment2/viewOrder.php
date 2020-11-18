@@ -40,7 +40,7 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo " <table style='width: 100%' style = border:3px >
+        echo " <table style = border:3px >
                <tr autocapitalize='on' >
                <th>Order ID  </th>
                <th>Product Name  </th>
