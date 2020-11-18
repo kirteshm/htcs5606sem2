@@ -36,7 +36,7 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
     $result3 = mysqli_query($conn, $sql3);
 
-    while ($row2 = $result2->fetch_assoc()){
+    while ($row2 = $result2 && $result3->fetch_assoc()){
         echo "<p>Product Name: ".$row2["productName"]." Qty: ".$row2["Qty"]."</p>";
     }
 }
