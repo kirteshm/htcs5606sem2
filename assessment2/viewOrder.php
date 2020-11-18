@@ -33,7 +33,7 @@ function getProductNameByProductID($productID)
         $name = $row["productName"];
     }
     return $name;
-
+}
 // connect to database
 $conn = createDatabaseConnection();
 
