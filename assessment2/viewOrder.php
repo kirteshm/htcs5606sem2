@@ -41,7 +41,7 @@ function createDatabaseConnection()
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
         echo " <table style='width: 100%'>
-               <tr>
+               <tr style='border: red'>
                <th>Order ID  </th>
                <th>Product Name  </th>
                <th>Product Quantity </th>
@@ -55,7 +55,7 @@ function createDatabaseConnection()
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
          echo "
-               <tr>  
+               <tr style='border: red'>  
                <td align='center'>".$row["orderID"]."</td>
                <td align='center'>$name</td>
                <td align='center'>".$row2["Qty"]."</td>
