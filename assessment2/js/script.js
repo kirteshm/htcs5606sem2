@@ -17,7 +17,7 @@ function moveAd() {
 		image = document.getElementById("sideImage");
 		image.style.left = left + "px";
 		left--;
-		if (left == -400) {
+		if (left == -500) {
 			left = 0;
 		}
 	}, 50);
