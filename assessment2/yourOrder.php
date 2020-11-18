@@ -37,7 +37,6 @@
                 <div>
                     <?php include "viewOrder.php"; ?>
                 </div>
-
             </td>
             <td id="rightside">
                 <div id="cartDiv"></div>

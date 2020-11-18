@@ -25,9 +25,7 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-        ?>
-        <?php
-        include "yourOrder.php";
+
         echo "<h2>Order Received -</h2><h5>Time: " . $row["orderdate"] . "</h5>";
         echo "<h3>The Pet Food Store</h3>";
         echo "<h4>Order number: " . $row["orderID"] . "</h4>";
@@ -35,7 +33,6 @@ function createDatabaseConnection()
 
     //second query
     $sql2 = "select * from orderline where orderID = " . $row["orderID"];
-
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
