@@ -29,10 +29,10 @@ function createDatabaseConnection()
     while ($row = $result->fetch_assoc()) {
 
 
-        echo "<h2 class='invoice' align='center'>Order Received</h2>";
+        echo "<h2 align='center'>Order Received</h2>";
         echo "<p align='center'>Date & Time: " . $row["orderdate"] . "</p>";
-        echo "<h3 class='invoice'>The Pet Food Store - Order ID: ". $row["orderID"]."</h3>";
-        echo "<h5 class='invoice'>Shipping Address: " . $row["shipAddress"] . "</h5>";
+        echo "<h3>The Pet Food Store - Order ID: ". $row["orderID"]."</h3>";
+        echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
 
 
@@ -42,7 +42,7 @@ function createDatabaseConnection()
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
         echo " <table class = invoice style='width:90%'>
-               <tr class='invoice'>
+               <tr>
                <th>Product Name  </th>
                <th>Product Quantity </th>
                <th>Total Price </th>
