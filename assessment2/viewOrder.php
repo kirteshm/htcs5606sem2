@@ -26,9 +26,11 @@ function createDatabaseConnection()
 //show the first query
     while ($row = $result->fetch_assoc()) {
 
-        echo "<h2>Order Received -</h2><h5>Time: " . $row["orderdate"] . "</h5>";
-        echo "<h3>The Pet Food Store</h3>";
-        echo "<h4>Order number: " . $row["orderID"] . "</h4>";
+
+        echo "<h2 align='center'>Order Received</h2>";
+              //<h5 align='center'>Time: " . $row["orderdate"] . "</h5>
+        echo  " <h3>The Pet Food Store</h3> ";
+             // <h4>Order number: " . $row["orderID"] . "</h4>";
 
 
     //second query
@@ -39,8 +41,20 @@ function createDatabaseConnection()
 
     while ($row2 = $result2->fetch_assoc()) {
         $name = getProductNameByProductID($row2["productID"]);
-        echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
+       // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
+        echo " <table style='width: auto'>
+               <tr>
+               <th>Order ID</th>
+               <th>Product Name</th>
+               <th>Product Quantity</th>
+               </tr>    
+               <tr>  
+               <td>".$row["orderID"]."</td>
+               <td>$name</td>
+               <td>".$row2["Qty"]."</td>
+               </tr>               
+               </table>";
 
     }
 }
