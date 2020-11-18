@@ -10,29 +10,8 @@ function createDatabaseConnection()
     $dbpassword = "nz1tdqgzvtixcxel";
     $dbname = "dry1psur1w11ayhb";
 
-    $conn1 = new mysqli($server, $dbusername, $dbpassword, $dbname);
-    return $conn1;
-}
-function getProductNameByProductID($productID)
-{
-    //create a connection
-
-    $conn1 = createDatabaseConnection();
-
-    //creat a query
-
-    $sql4 = "select productName from product where id=$productID";
-
-    //run the query
-
-    $result4 = mysqli_query($conn1, $sql4);
-
-    //show result
-
-    while ($row = $result4->fetch_assoc()) {
-        $name = $row["productName"];
-    }
-    return $name;
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+    return $conn;
 }
 // connect to database
 $conn = createDatabaseConnection();
@@ -45,7 +24,7 @@ $result = mysqli_query($conn, $sql);
 
 //show the first query
 while ($row = $result ->fetch_assoc()){
-    echo "<h2>Invoice - The Pet Food Store</h2>"
+    echo "<h3>Invoice - The Pet Food Store</h3>";
     echo "<h4> Your order number is: ".$row["orderID"]."</h3>";
     echo "<h4>Shipping Address: ".$row["shipAddress"]."</h4>";
     echo "<h2>Time: ".$row["orderdate"]."</h2>";
@@ -58,12 +37,9 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        $name = getProductNameByProductID();
-        echo "<p>Product Name: $name Qty: " . $row2["Qty"] . "</p>";
-
+        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
 
     }
-
 
 }
 
