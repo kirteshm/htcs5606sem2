@@ -32,32 +32,16 @@ function createDatabaseConnection()
         echo "<h5>Time: " . $row["orderdate"] . "</h5>";
 
     //second query
-    $sql2 = "select * from orderline where orderID = " . $row["orderID"];
+    $sql2 = "select * from product where productName = " . $row["productName"];
 
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
+        echo "<p>ID: " . $row2["productName"] . " Qty: " . $row2["Qty"] . "</p>";
 
-        //third query
-        $conn2 = createDatabaseConnection();
 
-        //creat a query
-
-        $sql3 = "select productName from product where id = $productID";
-
-        //run the query
-
-        $result = mysqli_query($conn2, $sql3);
-
-        //show result
-
-        while ($row = $result->fetch_assoc()) {
-            $productID = $row["productName"];
-        }
-        return $productID;
     }
 }
 
