@@ -29,14 +29,6 @@ while ($row = $result ->fetch_assoc()){
     echo "<h3>Time: ".$row["orderdate"]."</h3>";
 
     //second query
-    $sql2 = "select * from orderline where orderID = ".$row["orderID"];
-
-
-    //run the second query
-    $result2 = mysqli_query($conn, $sql2);
-
-    while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
 
 
         $sql3 = "select * from product where productName = " . $row["productName"];
@@ -46,6 +38,6 @@ while ($row = $result ->fetch_assoc()){
         while ($row3 = $result3->fetch_assoc()) {
             echo "<p>Product Name: " . $row3["productName"] . " Quanity: " . $row2["Qty"] . "</p>";
         }
-    }
+
 }
 
