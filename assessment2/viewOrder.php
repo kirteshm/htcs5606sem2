@@ -1,6 +1,7 @@
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
+$total = $_SESSION["total"];
 
 function createDatabaseConnection()
 {
@@ -28,9 +29,10 @@ function createDatabaseConnection()
 
 
         echo "<h2 align='center'>Order Received</h2>";
-              //<h5 align='center'>Time: " . $row["orderdate"] . "</h5>
-        echo  " <h3>The Pet Food Store</h3> ";
-             // <h4>Order number: " . $row["orderID"] . "</h4>";
+        echo "<p> align='center'>Time: " . $row["orderdate"] . "</p>";
+        echo "<h3>The Pet Food Store</h3>";
+        echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
+
 
 
     //second query
@@ -38,11 +40,12 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo " <table style='width: auto'>
+        echo " <table style='width: 100%'>
                <tr>
-               <th>Order ID</th>
-               <th>Product Name</th>
-               <th>Product Quantity</th>
+               <th>Order ID  </th>
+               <th>Product Name  </th>
+               <th>Product Quantity </th>
+               <th>Total Price </th>
                </tr>   ";
     while ($row2 = $result2->fetch_assoc()) {
         $name = getProductNameByProductID($row2["productID"]);
@@ -50,16 +53,17 @@ function createDatabaseConnection()
 
          echo "
                <tr>  
-               <td>".$row["orderID"]."</td>
-               <td>$name</td>
-               <td>".$row2["Qty"]."</td>
+               <td align='centre'>".$row["orderID"]."</td>
+               <td align='centre'>$name</td>
+               <td align='right'>".$row2["Qty"]."</td>
+               <td align='right'>$$total</td>
                </tr>               
                ";
 
     }
     echo "</table>";
 }
-echo "<h4>Shipping Address: " . $row["shipAddress"] . "</h4>";
+
 function getProductNameByProductID($productID)
 {
     //create a connection
