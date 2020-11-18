@@ -28,7 +28,7 @@ VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phon
         ?>
         <div class='welcome'>
         <h2>Welcome, You are now registered</h2>
-            <a href='index.php'>Back to Login Page</a>
+            <?php include "welcome.php"; ?>
         </div>
          <?php
     } else {
