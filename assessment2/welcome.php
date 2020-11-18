@@ -18,6 +18,7 @@
 <div id = "nav">
     <ul>
         <li><a class="active" href="index.php">Home</a></li>
+        <?php include "category.php" ?>
     </ul>
 </div>
 <div id = "Main">
@@ -33,7 +34,7 @@
             <td id="middlecontent">
                 <div>
                     <h2 align="center">You have been successfully registered</h2>
-                    <h3 align="center">Please Login to continue</h3>
+                    <h3 align="center">Please contact us for any issues</h3>
                 </div>
 
             </td>
