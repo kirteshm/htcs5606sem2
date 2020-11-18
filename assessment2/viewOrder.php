@@ -10,8 +10,8 @@ function createDatabaseConnection()
     $dbpassword = "nz1tdqgzvtixcxel";
     $dbname = "dry1psur1w11ayhb";
 
-    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-    return $conn;
+    $conn1 = new mysqli($server, $dbusername, $dbpassword, $dbname);
+    return $conn1;
 }
 function getProductNameByProductID($productID)
 {
@@ -21,11 +21,11 @@ function getProductNameByProductID($productID)
 
     //creat a query
 
-    $sql = "select productName from product where id=$productID";
+    $sql4 = "select productName from product where id=$productID";
 
     //run the query
 
-    $result4 = mysqli_query($conn1, $sql);
+    $result4 = mysqli_query($conn1, $sql4);
 
     //show result
 
@@ -58,7 +58,8 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>Product Name: ".$row["productName"]. " Qty: " . $row2["Qty"] . "</p>";
+        $name = getProductNameByProductID();
+        echo "<p>Product Name: $name Qty: " . $row2["Qty"] . "</p>";
 
 
     }
