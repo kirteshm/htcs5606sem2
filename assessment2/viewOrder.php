@@ -50,6 +50,8 @@ function createDatabaseConnection()
     while ($row2 = $result2->fetch_assoc()) {
         $name = getProductNameByProductID($row2["productID"]);
         $price = getProductPriceByProductID($row2["productID"]);
+        $qty1 = $row2["Qty"];
+        $totalprice = $price * $qty1;
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
          echo "
@@ -57,7 +59,7 @@ function createDatabaseConnection()
                <td align='center'>".$row["orderID"]."</td>
                <td align='center'>$name</td>
                <td align='center'>".$row2["Qty"]."</td>
-               <td align='center'>$$price</td>
+               <td align='center'>$$totalprice</td>
                </tr>               
                ";
 
