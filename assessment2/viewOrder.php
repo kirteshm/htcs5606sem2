@@ -39,7 +39,7 @@ while ($row = $result ->fetch_assoc()){
         echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
 
 
-        $sql3 = "select * from product where id = " . $row["id"];
+        $sql3 = "select * from product where productName = " . $row["productName"];
 
         $result3 = mysqli_query($conn, $sql3);
 
