@@ -39,36 +39,26 @@ function createDatabaseConnection()
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-
+        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
 
         //third query
-        function getProductNameByProductID($productID)
-        {
-            //create a connection
+        $conn2 = createDatabaseConnection();
 
-            $conn2 = createDatabaseConnection();
+        //creat a query
 
-            //creat a query
+        $sql3 = "select productName from product where id = $productID";
 
-            $sql = "select productName from product where id=$productID";
+        //run the query
 
-            //run the query
+        $result = mysqli_query($conn2, $sql3);
 
-            $result = mysqli_query($conn2, $sql);
+        //show result
 
-            //show result
-
-            while ($row = $result->fetch_assoc()) {
-                $name = $row["productName"];
-            }
-            return $name;
-
+        while ($row = $result->fetch_assoc()) {
+            $productID = $row["productName"];
         }
-        $name = getProductNameByProductID();
-        echo "<p>ID: " . $row2["productID"] . " $name Qty: " . $row2["Qty"] . "</p>";
-
+        return $productID;
     }
-
 }
 
 
