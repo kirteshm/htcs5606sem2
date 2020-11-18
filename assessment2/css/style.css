@@ -115,7 +115,7 @@ p {
 }
 
 #sideImage {
-    height: 600px;
+    height: 500px;
     position: relative;
     vertical-align: top;
     padding-top: 10px;
@@ -146,14 +146,15 @@ p {
     width: 150px;
     display: inline-block;
     margin: 20px;
-    border-style: groove;
+    /*border-style: groove;*/
     height: 250px;
     text-align: center;
 }
 
 #middlecontent {
     width: 40%;
-    alignment: top;
+    vertical-align: top;
+    alignment: center;
     color: brown;
 }
 
@@ -167,7 +168,7 @@ p {
 }
 
 .cartInput {
-    width: 40px;
+    width: 20px;
 }
 
 /* Invoice */

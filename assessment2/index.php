@@ -32,14 +32,12 @@
         </div>
       </td>
       <td id="middlecontent">
-          <div id="header" style="font-size: large">
-              <h3>Please Select a Catagory</h3>
+          <div>
               <?php include "products.php"; ?>
           </div>
 
       </td>
       <td id="rightside">
-
         <div id="cartDiv"></div>
 
           <?php include "login.php"; ?><br>
