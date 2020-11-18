@@ -36,7 +36,7 @@
             <td id="middlecontent">
                 <div>
                     <h2 align="center">You have been successfully registered</h2>
-                    <h3 align="center">You are now logged in</h3>
+                    <h3 align="center">Please Login to Continue</h3>
                 </div>
 
             </td>
@@ -52,7 +52,9 @@
               ?>
                 <li><a href="viewOrder.php">My Orders</a></li>
                 <?php
+
           }
+                @session_destroy();
           ?>
                 <p id="time"></p>
                 <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
