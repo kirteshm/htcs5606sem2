@@ -52,7 +52,7 @@ if (!isset($_SESSION["userID"])) {
 }
 else{
     ?>
-    <a href="logout.php">Logout</a>
+    <h4><a href="logout.php">Logout</a><br></h4>
 <?php
 }
 ?>

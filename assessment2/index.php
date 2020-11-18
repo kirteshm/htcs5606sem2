@@ -55,13 +55,13 @@
 
         <p id="time"></p>
           <p span style="font-size: 20px" style align="font-weight: bolder">Your Cart:</p>
-          <button id="showInvoiceBut">Invoice</button>
+<!--          <button id="showInvoiceBut">Invoice</button>-->
           <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
 
         <script>
           var myVar = setInterval(myTimer, 1000);
           function myTimer() {
-            var d = new Date();
+            d = new Date();
             document.getElementById("time").innerHTML = "Current Local Time " + d.toLocaleTimeString();
           }
         </script>
