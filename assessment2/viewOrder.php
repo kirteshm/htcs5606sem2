@@ -41,8 +41,8 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo " <table style='width:90%'>
-               <tr style=border:10px >
+        echo " <table class = invoice style='width:90%'>
+               <tr>
                <th>Product Name  </th>
                <th>Product Quantity </th>
                <th>Total Price </th>
@@ -54,8 +54,7 @@ function createDatabaseConnection()
         $totalprice = $price * $qty1;
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
-         echo "
-               <tr style='border: 10px'>  
+         echo "<tr>  
                <td align='center'>$name</td>
                <td align='center'>".$row2["Qty"]."</td>
                <td align='center'>$$totalprice</td>
@@ -111,7 +110,7 @@ function getProductPriceByProductID($productID){
 
 ?>
 <style>
-    table, th, td {
+    .invoice {
         border: 1px solid black;
     }
 </style>
