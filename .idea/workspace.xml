@@ -4,6 +4,7 @@
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/assessment2/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/images/food2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/images/food2.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\phpAndDatabase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2\images" />
       <recent name="C:\Users\kirte\OneDrive\Desktop\Uni\19102020\Case Study 1 Demo-20201019\HTCSDatabaseProject\assessment2" />
     </key>
   </component>
@@ -91,7 +93,7 @@
       <workItem from="1605641598425" duration="14333000" />
       <workItem from="1605657173611" duration="196000" />
       <workItem from="1605657444311" duration="393000" />
-      <workItem from="1605660926792" duration="4945000" />
+      <workItem from="1605660926792" duration="5298000" />
     </task>
     <servers />
   </component>
