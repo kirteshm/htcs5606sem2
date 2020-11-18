@@ -15,7 +15,7 @@
 
 <div id = "nav">
   <ul>
-    <li><a class="active">Home</a></li>
+    <li><a class="active" href="index.php">Home</a></li>
     <?php include "category.php";?>
     <li><a href="aboutus.html">About Us</a></li>
     <li><a href="registernow.html">Register Now</a></li>
