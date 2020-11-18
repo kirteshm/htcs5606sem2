@@ -37,9 +37,10 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
-
+        // echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
+        include "cart.php";
     }
+
 
 }
 
