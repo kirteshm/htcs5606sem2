@@ -17,7 +17,7 @@ function getProductNameByProductID($productID)
 {
     //create a connection
 
-    $conn = createDatabaseConnection();
+    $conn1 = createDatabaseConnection();
 
     //creat a query
 
@@ -25,11 +25,11 @@ function getProductNameByProductID($productID)
 
     //run the query
 
-    $result = mysqli_query($conn, $sql);
+    $result4 = mysqli_query($conn1, $sql);
 
     //show result
 
-    while ($row = $result->fetch_assoc()) {
+    while ($row = $result4->fetch_assoc()) {
         $name = $row["productName"];
     }
     return $name;
@@ -58,7 +58,8 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>Product Name: $name Qty: " . $row2["Qty"] . "</p>";
+        echo "<p>Product Name: ".$row["productName"]. " Qty: " . $row2["Qty"] . "</p>";
+
 
     }
 
