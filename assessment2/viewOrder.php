@@ -25,10 +25,13 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
+        ?>
+        <?php
+        include "yourOrder.php";
         echo "<h2>Order Received -</h2><h5>Time: " . $row["orderdate"] . "</h5>";
-        echo "<h3>Invoice - The Pet Food Store</h3>";
+        echo "<h3>The Pet Food Store</h3>";
         echo "<h4>Order number: " . $row["orderID"] . "</h4>";
-        echo "<h4>Shipping Address: " . $row["shipAddress"] . "</h4>";
+
 
     //second query
     $sql2 = "select * from orderline where orderID = " . $row["orderID"];
@@ -44,7 +47,7 @@ function createDatabaseConnection()
 
     }
 }
-
+echo "<h4>Shipping Address: " . $row["shipAddress"] . "</h4>";
 function getProductNameByProductID($productID)
 {
     //create a connection
