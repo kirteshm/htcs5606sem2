@@ -52,6 +52,7 @@ function moveText() {
 	}, 50);
 }
 
+/*
 function addToCart(e) {
 	cart = document.getElementById("cartDiv");
 	switch (e.id) {
@@ -120,9 +121,9 @@ function addToInvoice() {
 	
 }
 
-/**
+/!**
  * Show invoice page
- */
+ *!/
 function invoice() {
 	
 	voicePage = document.getElementById("voicePage");
@@ -205,3 +206,4 @@ function invoice() {
 		}
 	}
 }
+*/

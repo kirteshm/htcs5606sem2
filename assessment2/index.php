@@ -32,7 +32,8 @@
         </div>
       </td>
       <td id="middlecontent">
-          <div id="header">
+          <div id="header" style="font-size: large">
+              <h3>Please Select a Catagory</h3>
               <?php include "products.php"; ?>
           </div>
 
@@ -54,8 +55,6 @@
           ?>
 
         <p id="time"></p>
-          <p span style="font-size: 20px" style align="font-weight: bolder">Your Cart:</p>
-<!--          <button id="showInvoiceBut">Invoice</button>-->
           <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
 
         <script>
