@@ -25,9 +25,9 @@ $result = mysqli_query($conn, $sql);
 //show the first query
 while ($row = $result ->fetch_assoc()){
     echo "<h3>Invoice - The Pet Food Store</h3>";
-    echo "<h4> Your order number is: ".$row["orderID"]."</h3>";
+    echo "<h4>Order number: ".$row["orderID"]."</h4>";
     echo "<h4>Shipping Address: ".$row["shipAddress"]."</h4>";
-    echo "<h2>Time: ".$row["orderdate"]."</h2>";
+    echo "<h5>Time: ".$row["orderdate"]."</h5>";
 
     //second query
     $sql2 = "select * from orderline where orderID = ".$row["orderID"];
@@ -38,7 +38,7 @@ while ($row = $result ->fetch_assoc()){
 
     while ($row2 = $result2->fetch_assoc()) {
         // echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
-        include "cart.php";
+        echo include "cart.php";
     }
 
 
