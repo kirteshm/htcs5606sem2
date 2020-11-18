@@ -34,7 +34,7 @@
             <td id="middlecontent">
                 <div>
                     <h2 align="center">You have been successfully registered</h2>
-                    <h3 align="center">Please contact us for any issues</h3>
+                    <h3 align="center">Please Login to Continue Shopping</h3>
                 </div>
 
             </td>
@@ -44,14 +44,14 @@
                 <?php include "login.php"; ?><br>
                 <?php include "category.php"; ?>
                 <li><a href="Cart.php">Shopping Cart</a></li>
-                <?php
-          @session_start();
-            if (isset($_SESSION["userID"])){
-              ?>
-                <li><a href="viewOrder.php">My Orders</a></li>
-                <?php
-          }
-          ?>
+<!--                --><?php
+//          @session_start();
+//            if (isset($_SESSION["userID"])){
+//              ?>
+<!--                <li><a href="viewOrder.php">My Orders</a></li>-->
+<!--                --><?php
+//          }
+//          ?>
 
                 <p id="time"></p>
                 <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
