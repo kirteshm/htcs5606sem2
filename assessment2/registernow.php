@@ -27,8 +27,8 @@ VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phon
     if (mysqli_query($conn, $sql)) {
         ?>
         <div class='welcome'>
-        <h2>Welcome, You are now registered</h2>;
-            <a href='index.php'>Back to Homepage</a>;
+        <h2>Welcome, You are now registered</h2>
+            <a href='index.php'>Back to Login Page</a>
         </div>
          <?php
     } else {
