@@ -3,6 +3,7 @@
 $userID = $_SESSION["userID"];
 
 
+
 function createDatabaseConnection()
 {
     //create database connection
@@ -29,7 +30,7 @@ function createDatabaseConnection()
 
 
         echo "<h2 align='center'>Order Received</h2>";
-        echo "<p align='center'>Time: " . $row["orderdate"] . "</p>";
+        echo "<p align='center'>Date & Time: " . $row["orderdate"] . "</p>";
         echo "<h3>The Pet Food Store - Order ID: ". $row["orderID"]."</h3>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
@@ -108,3 +109,10 @@ function getProductPriceByProductID($productID){
     return $price;
 }
 
+?>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<?php
