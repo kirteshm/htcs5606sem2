@@ -2,6 +2,18 @@
 @session_start();
 $userID = $_SESSION["userID"];
 
+$orderedProductsIDs = $_SESSION["orderedProductIds"];
+$orderedProductsQtys = $_SESSION["orderedProductQtys"];
+
+$i = 0;
+while ($i<sizeof($orderedProductsIDs)) {
+
+    $orderedProductsID = $orderedProductsIDs[$i];
+    $orderedProductsQty = $orderedProductsQtys[$i];
+    $productName = getProductNameByProductID($orderedProductsID);
+    $price = getProductPriceByProductID($orderedProductsID);
+    $Totalprice = $price * $orderedProductsQty;
+}
 function createDatabaseConnection()
 {
     //create database connection
@@ -13,34 +25,34 @@ function createDatabaseConnection()
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
     return $conn;
 }
+
 // connect to database
-$conn = createDatabaseConnection();
+    $conn = createDatabaseConnection();
 
 // first query
-$sql = "select * from orders where userID = $userID";
+    $sql = "select * from orders where userID = $userID";
 
 //run the first query
-$result = mysqli_query($conn, $sql);
+    $result = mysqli_query($conn, $sql);
 
 //show the first query
-while ($row = $result ->fetch_assoc()){
-    echo "<h3>Invoice - The Pet Food Store</h3>";
-    echo "<h4>Order number: ".$row["orderID"]."</h4>";
-    echo "<h4>Shipping Address: ".$row["shipAddress"]."</h4>";
-    echo "<h5>Time: ".$row["orderdate"]."</h5>";
-    echo include "cart.php";
+    while ($row = $result->fetch_assoc()) {
+
+        echo "<h3>Invoice - The Pet Food Store</h3>";
+        echo "<h4>Order number: " . $row["orderID"] . "</h4>";
+        echo "<h4>Shipping Address: " . $row["shipAddress"] . "</h4>";
+        echo "<h5>Time: " . $row["orderdate"] . "</h5>";
 
     //second query
-    $sql2 = "select * from orderline where orderID = ".$row["orderID"];
+    $sql2 = "select * from orderline where orderID = " . $row["orderID"];
 
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
+        echo "<p>ID: $productName Qty: " . $row2["Qty"] . "</p>";
     }
-
-
 }
+
 
