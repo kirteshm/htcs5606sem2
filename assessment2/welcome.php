@@ -32,7 +32,7 @@
             </td>
             <td id="middlecontent">
                 <div>
-                    <?php include "registernow.php"; ?>
+                    <h2 align="center">Welcome, You are now registered</h2>
                 </div>
 
             </td>

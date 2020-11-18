@@ -26,8 +26,7 @@ VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phon
 
     if (mysqli_query($conn, $sql)) {
         ?>
-        <div class='welcome'>
-        <h2>Welcome, You are now registered</h2>
+        <div>
             <?php include "welcome.php"; ?>
         </div>
          <?php
