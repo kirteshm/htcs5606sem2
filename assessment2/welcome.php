@@ -32,11 +32,12 @@
             </td>
             <td id="middlecontent">
                 <div>
-                    <h2 align="center">Welcome, You are now registered</h2>
+                    <h2 align="center">You have been successfully registered</h2>
+                    <h3 align="center">Please Login to continue</h3>
                 </div>
 
             </td>
-            <!--<td id="rightside">
+            <td id="rightside">
                 <div id="cartDiv"></div>
 
                 <?php include "login.php"; ?><br>
@@ -61,7 +62,7 @@
                         document.getElementById("time").innerHTML = "Current Local Time " + d.toLocaleTimeString();
                     }
                 </script>
-            </td>-->
+            </td>
         </tr>
     </table>
 </div>
