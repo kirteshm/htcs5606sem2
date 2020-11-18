@@ -30,12 +30,14 @@ while ($row = $result ->fetch_assoc()){
 
     //second query
     $sql2 = "select * from orderline where orderID = ".$row["orderID"];
+    $sql3 = "select * from product where productName=".$row["productName"];
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
+    $result3 = mysqli_query($conn, $sql3);
 
     while ($row2 = $result2->fetch_assoc()){
-        echo "<p>ID: ".$row2["name"]." Qty: ".$row2["Qty"]."</p>";
+        echo "<p>ID: ".$row2["productName"]." Qty: ".$row2["Qty"]."</p>";
     }
 }
 
