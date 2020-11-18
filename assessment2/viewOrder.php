@@ -2,18 +2,6 @@
 @session_start();
 $userID = $_SESSION["userID"];
 
-$orderedProductsIDs = $_SESSION["orderedProductIds"];
-$orderedProductsQtys = $_SESSION["orderedProductQtys"];
-
-$i = 0;
-while ($i<sizeof($orderedProductsIDs)) {
-
-    $orderedProductsID = $orderedProductsIDs[$i];
-    $orderedProductsQty = $orderedProductsQtys[$i];
-    $productName = getProductNameByProductID($orderedProductsID);
-    $price = getProductPriceByProductID($orderedProductsID);
-    $Totalprice = $price * $orderedProductsQty;
-}
 function createDatabaseConnection()
 {
     //create database connection
@@ -51,8 +39,36 @@ function createDatabaseConnection()
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: $productName Qty: " . $row2["Qty"] . "</p>";
+
+
+        //third query
+        function getProductNameByProductID($productID)
+        {
+            //create a connection
+
+            $conn2 = createDatabaseConnection();
+
+            //creat a query
+
+            $sql = "select productName from product where id=$productID";
+
+            //run the query
+
+            $result = mysqli_query($conn2, $sql);
+
+            //show result
+
+            while ($row = $result->fetch_assoc()) {
+                $name = $row["productName"];
+            }
+            return $name;
+
+        }
+        $name = getProductNameByProductID();
+        echo "<p>ID: " . $row2["productID"] . " $name Qty: " . $row2["Qty"] . "</p>";
+
     }
+
 }
 
 

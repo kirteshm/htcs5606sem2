@@ -93,7 +93,7 @@ function getProductPriceByProductID($productID){
 $userID = $_SESSION["userID"];
 $shipAddress = $_POST["shipAddress"];
 date_default_timezone_set("Pacific/Auckland");
-$datetime = date("d-m-Y H:i:s");
+$datetime = date("Y-m-d H:i:s");
 
 function createAnOrder($userID, $shipAddress, $datetime)
 {
