@@ -25,7 +25,7 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-
+        echo "<h2>Order Received</h2>";
         echo "<h3>Invoice - The Pet Food Store</h3>";
         echo "<h4>Order number: " . $row["orderID"] . "</h4>";
         echo "<h4>Shipping Address: " . $row["shipAddress"] . "</h4>";
@@ -39,10 +39,32 @@ function createDatabaseConnection()
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
+        $name = getProductNameByProductID($row2["productID"]);
+        echo "<p>ID: " . $name . " Qty: " . $row2["Qty"] . "</p>";
 
 
     }
 }
 
 
+function getProductNameByProductID($productID)
+{
+    //create a connection
+
+    $conn = createDatabaseConnection();
+
+    //creat a query
+
+    $sql = "select productName from product where id=$productID";
+
+    //run the query
+
+    $result = mysqli_query($conn, $sql);
+
+    //show result
+
+    while ($row = $result->fetch_assoc()) {
+        $name = $row["productName"];
+    }
+    return $name;
+}
