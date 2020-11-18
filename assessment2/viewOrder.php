@@ -28,6 +28,7 @@ while ($row = $result ->fetch_assoc()){
     echo "<h4>Order number: ".$row["orderID"]."</h4>";
     echo "<h4>Shipping Address: ".$row["shipAddress"]."</h4>";
     echo "<h5>Time: ".$row["orderdate"]."</h5>";
+    echo include "cart.php";
 
     //second query
     $sql2 = "select * from orderline where orderID = ".$row["orderID"];
@@ -37,8 +38,7 @@ while ($row = $result ->fetch_assoc()){
     $result2 = mysqli_query($conn, $sql2);
 
     while ($row2 = $result2->fetch_assoc()) {
-        // echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
-        echo include "cart.php";
+        echo "<p>ID: " . $row2["productID"] . " Qty: " . $row2["Qty"] . "</p>";
     }
 
 
