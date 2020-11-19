@@ -41,7 +41,7 @@
         <div id="cartDiv"></div>
 
           <?php include "login.php"; ?><br>
-          <?php include "category.php"; ?>
+          <?php include "category.php"; ?><br><br>
           <li><a href="showCart.php">Shopping Cart</a></li>
           <?php
           @session_start();
