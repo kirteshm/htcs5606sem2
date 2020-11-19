@@ -62,5 +62,5 @@
 
 
 </body>
-<footer style="alignment: center"><?php include "footer.php" ?></footer>
+<?php include "footer.php" ?>
 </html>
