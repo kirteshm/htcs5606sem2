@@ -39,23 +39,21 @@
             </td>
             <td id="rightside">
 
+                <br><br>
                 <?php include "login.php"; ?><br>
                 <?php include "category.php"; ?><br><br>
                 <li><a href="showCart.php">Shopping Cart</a></li>
-
                 <?php
-          @session_start();
-            if (isset($_SESSION["userID"])){
-              ?>
-                <li><a href="yourOrder.php">My Orders</a></li>
-                <?php
-          }
-          ?>
+                @session_start();
+                if (isset($_SESSION["userID"])){
+                    ?>
+                    <li><a href="yourOrder.php">My Orders</a></li><br>
 
-                <p id="time"></p>
-                <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
+                    <?php
+                }
 
-
+                ?>
+                <h2 align="center" style="color: maroon">Free Delivery for purchase over $300</h2>
             </td>
         </tr>
     </table>

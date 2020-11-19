@@ -41,29 +41,22 @@
                 </div>
             </td>
             <td id="rightside">
-                <div id="cartDiv"></div>
 
+                <br><br>
                 <?php include "login.php"; ?><br>
-                <?php include "category.php"; ?>
-                <li><a href="Cart.php">Shopping Cart</a></li>
+                <?php include "category.php"; ?><br><br>
+                <li><a href="showCart.php">Shopping Cart</a></li>
                 <?php
-          @session_start();
-            if (isset($_SESSION["userID"])){
-              ?>
-                <li><a href="viewOrder.php">My Orders</a></li>
-                <?php
-          }
-          ?>
-                <p id="time"></p>
-                <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
+                @session_start();
+                if (isset($_SESSION["userID"])){
+                    ?>
+                    <li><a href="yourOrder.php">My Orders</a></li><br>
 
-                <script>
-                    var myVar = setInterval(myTimer, 1000);
-                    function myTimer() {
-                        d = new Date();
-                        document.getElementById("time").innerHTML = "Current Local Time " + d.toLocaleTimeString();
-                    }
-                </script>
+                    <?php
+                }
+
+                ?>
+                <h2 align="center" style="color: maroon">Free Delivery for purchase over $300</h2>
             </td>
         </tr>
     </table>
