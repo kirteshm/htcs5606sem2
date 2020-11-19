@@ -57,7 +57,7 @@ if ($total>300){
 }
 echo "<h3 align='center'>Order ID:$orderID</h3>";
 echo "</table>";
-echo "<h4 align='right'>Invoice Total: $$total</h4>";
+echo "<h4 align='center'>Invoice Total: $$total</h4>";
 
 
 
