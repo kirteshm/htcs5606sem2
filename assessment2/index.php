@@ -53,8 +53,8 @@
           ?>
 
 
-          <h1 align="center"><span style="color:maroon">Free Delivery</span></h1>
-          <h2 align="center"><span style="color:maroon">for purchase over $300</span></h2>
+          <h1 align="center" style="color: maroon">Free Delivery</h1>
+          <h2 align="center" style="color: maroon">for purchase over $300</h2>
 
       </td>
     </tr>
