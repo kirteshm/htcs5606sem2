@@ -13,7 +13,7 @@ $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
-$delivery = 25; // default delivery charge
+
 
 echo "<h2 align='center'>Shopping Cart</h2>";
 
@@ -51,11 +51,13 @@ echo "</table>";
 <?php
 
 //free delivery over $300 purchase
+$delivery = 0; // default delivery charge
 if ($total > 300) {
     $delivery = 0;
     echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
     $total1 = $total;
 }else{
+    $delivery = 25;
     $total1 = $total + $delivery;
 }
 echo"<p>Deliver Charges: $$delivery</p>";
