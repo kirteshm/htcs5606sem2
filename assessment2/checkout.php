@@ -23,16 +23,16 @@ while ($i<sizeof($orderedProductsIDs)){
     $Totalprice = $price * $orderedProductsQty;
 
     //echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-    echo "<tr>
-            <td align='center'><?php $productName ?></td>
-            <td align='center'><?php $orderedProductsQty ?></td>
-            <td align='center'><?php $$price ?></td>
-            <td align='center'><?php $$Totalprice ?></td>
-            </tr> ";
+
     $total = $total + ($price*$orderedProductsQty);
 
     $i++;
-
+    echo "<tr>
+            <td><?php $productName ?></td>
+            <td><?php $orderedProductsQty ?></td>
+            <td><?php $$price ?></td>
+            <td><?php $$Totalprice ?></td>
+            </tr> ";
 
 
 }
