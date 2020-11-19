@@ -11,9 +11,9 @@ while ($i<sizeof($orderedProductsIDs)) {
     $orderedProductsQty = $orderedProductsQtys[$i];
     $productName = getProductNameByProductID($orderedProductsID);
     $price = getProductPriceByProductID($orderedProductsID);
-    $TotalpriceAll = $price * $orderedProductsQty;
+    $TotalpriceQ = $price * $orderedProductsQty;
 
-    $total = $total + ($price * $orderedProductsQty);
+    $totalAll = $totalAll + ($price * $orderedProductsQty);
     $i++;
 }
 
@@ -75,7 +75,7 @@ function createDatabaseConnection()
                ";
 
     }
-    echo "<h3>Total Invoice Price: $$TotalpriceAll</h3>";
+    echo "<h3>Total Invoice Price: $$totalAll</h3>";
     echo "</table>";
 }
 
