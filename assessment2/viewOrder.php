@@ -1,7 +1,21 @@
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
+$orderedProductsIDs = $_SESSION["orderedProductIds"];
+$orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
+$i = 0;
+while ($i<sizeof($orderedProductsIDs)) {
+
+    $orderedProductsID = $orderedProductsIDs[$i];
+    $orderedProductsQty = $orderedProductsQtys[$i];
+    $productName = getProductNameByProductID($orderedProductsID);
+    $price = getProductPriceByProductID($orderedProductsID);
+    $TotalpriceAll = $price * $orderedProductsQty;
+
+    $total = $total + ($price * $orderedProductsQty);
+    $i++;
+}
 
 function createDatabaseConnection()
 {
@@ -41,7 +55,7 @@ function createDatabaseConnection()
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
         echo " <table class = invoice style='width:90%'>
-               <tr>
+               <tr class='invoice'>
                <th>Product Name  </th>
                <th>Product Quantity </th>
                <th>Total Price </th>
@@ -61,6 +75,7 @@ function createDatabaseConnection()
                ";
 
     }
+    echo "<h3>Total Invoice Price: $$TotalpriceAll</h3>";
     echo "</table>";
 }
 
@@ -111,9 +126,10 @@ function getProductPriceByProductID($productID){
 
 <style>
     .invoice {
-        border: 2px solid black;
+        border: 1px solid maroon;
     }
 </style>
 <?php
+
 
 
