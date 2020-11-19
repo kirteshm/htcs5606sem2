@@ -40,9 +40,9 @@
       <td id="rightside">
 
           <br><br>
-          <?php include "login.php"; ?><br><br>
-          <h1 align="center" style="color: maroon">Free Delivery</h1>
-          <h2 align="center" style="color: maroon">for purchase over $300</h2>
+          <?php include "login.php"; ?><br>
+          <h2 align="center" style="color: maroon">Free Delivery</h2>
+          <h3 align="center" style="color: maroon">for purchase over $300</h3>
 
 
               <?php include "category.php"; ?><br><br>
