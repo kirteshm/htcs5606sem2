@@ -26,10 +26,10 @@ echo "<p>Total: $$total</p>";
         $delivery = 0;
         echo "Congratulation! you qualified for Free Delivery";
         return $delivery;
-    } else {
-        $delivery = 25;
-
-}
+        ?>
+        @session_start();
+        <?php
+    }
 $total = $total + $delivery;
 echo"<p>Deliver Charges: $$delivery</p>";
 
