@@ -54,11 +54,12 @@ echo "</table>";
 if ($total > 300) {
     $delivery = 0;
     echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
+    $total1 = $total;
 }else{
-    $total = $total + $delivery;
+    $total1 = $total + $delivery;
 }
 echo"<p>Deliver Charges: $$delivery</p>";
-echo "<h2 style='alignment: center'>Total: $$total</h2>";
+echo "<h2 style='alignment: center'>Total: $$total1</h2>";
 
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
