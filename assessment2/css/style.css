@@ -63,6 +63,7 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: brown;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 #nav li {
@@ -101,13 +102,13 @@ p {
 #leftside {
     width: 30%;
     vertical-align: top;
-    position:-webkit-sticky; position:sticky; top:0;
+
 }
 
 #rightside {
     width: 20%;
     vertical-align: top;
-    position: sticky; top: 0;
+
 
 }
 
