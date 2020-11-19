@@ -1,7 +1,8 @@
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
-
+$orderedProductsIDs = $_SESSION["orderedProductIds"];
+$orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 
 function createDatabaseConnection()
@@ -54,8 +55,7 @@ function createDatabaseConnection()
         $totalprice = $price * $qty1;
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
-        $orderedProductsIDs = $_SESSION["orderedProductIds"];
-        $orderedProductsQtys = $_SESSION["orderedProductQtys"];
+
 
         $i = 0;
         while ($i < sizeof($orderedProductsIDs)) {
@@ -71,12 +71,6 @@ function createDatabaseConnection()
 
             $i++;
         }
-
-
-
-
-
-
 
 
         echo "<tr>  
