@@ -77,6 +77,7 @@ function createDatabaseConnection()
 
     echo "</table>";
     echo "<h3>Total Invoice Price: $$totalAll</h3>";
+    echo "<br><h3>-----------------------------------------------</h3><br>";
 }
 
 function getProductNameByProductID($productID)
