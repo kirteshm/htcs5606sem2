@@ -1,26 +1,6 @@
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
-$orderedProductsIDs = $_SESSION["orderedProductIds"];
-$orderedProductsQtys = $_SESSION["orderedProductQtys"];
-
-
-
-$i = 0;
-while ($i < sizeof($orderedProductsIDs)) {
-
-    $orderedProductsID = $orderedProductsIDs[$i];
-    $orderedProductsQty = $orderedProductsQtys[$i];
-    $productName = getProductNameByProductID($orderedProductsID);
-    $price = getProductPriceByProductID($orderedProductsID);
-    $TotalpriceAll = $price * $orderedProductsQty;
-
-    echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-    $total = $total + ($price * $orderedProductsQty);
-
-    $i++;
-}
-
 
 
 function createDatabaseConnection()
@@ -81,7 +61,7 @@ function createDatabaseConnection()
                ";
 
     }
-        echo "<h3>Total Invoice: $$TotalpriceAll</h3>";
+        echo "<h3>Total Invoice:</h3>";include "Cart.php";
     echo "</table>";
 }
 
