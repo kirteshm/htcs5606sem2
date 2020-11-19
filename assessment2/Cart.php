@@ -6,6 +6,7 @@ $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
+$delivery = 25;
 while ($i<sizeof($orderedProductsIDs)){
 
     $orderedProductsID = $orderedProductsIDs[$i];
@@ -15,16 +16,20 @@ while ($i<sizeof($orderedProductsIDs)){
     $Totalprice = $price * $orderedProductsQty;
 
     echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-    $total = $total + ($price*$orderedProductsQty);
+    $total = $total + ($price*$orderedProductsQty) + $delivery;
 
     $i++;
 }
 echo "<p>Total: $$total</p>";
 
-/**if ($total>300){
-
-    } */
-
+if ($total>300){
+    $delivery = 0;
+    echo "Congratulation! you qualified for Free Delivery";
+    return $delivery;
+    }
+else {
+    $delivery = 25;
+}
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
 ?>
