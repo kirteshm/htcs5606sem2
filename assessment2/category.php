@@ -20,6 +20,5 @@ $result = mysqli_query($conn, $sql);
 while ($row = $result->fetch_assoc()){
     ?>
 <li><a href="index.php?category= <? echo $row["id"]; ?>"><?php echo $row["name"]; ?></a></li>
-    <a class="active"><?php $row["name"]; ?></a>
 <?php
 }

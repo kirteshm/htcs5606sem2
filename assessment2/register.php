@@ -60,7 +60,7 @@
 
                 </form>
 
-            </div>
+            </div><br><br>
 
             <div id="footer">&copy; The Pet Food Shop Limited</div>
             <div><img class="regpic" src="images/register.png" alt="Register pic"</div>
