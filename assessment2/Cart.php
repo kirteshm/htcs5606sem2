@@ -7,6 +7,7 @@ $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
 $delivery = 25; // default delivery charge
+echo "<h2 align='center'>Shopping Cart</h2>";
 echo "<table class='cartdetails' style='width: 90%'>
             <tr>
             <th>Product Name</th>
@@ -23,7 +24,7 @@ while ($i<sizeof($orderedProductsIDs)) {
     $Totalprice = $price * $orderedProductsQty;
 
 
-     echo   "<tr>
+     echo   "<tr align='center'>
             <td>$productName</td>
             <td>$orderedProductsQty</td>
             <td>$$price</td>
@@ -35,14 +36,17 @@ while ($i<sizeof($orderedProductsIDs)) {
     $i++;
 }
 echo "</table>";
+?>
+<br>
+<?php
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
 ?>
 
-<form class = cartform action="checkout.php" method="post">
+<form style="border: 1px solid maroon" action="checkout.php" method="post">
     <label>Shipping Address</label><br>
-    <textarea name="shipAddress" rows="8" cols="10" placeholder="If its different to registered"></textarea><br>
-    <input type="submit" value="Checkout Now">
+    <textarea name="shipAddress" rows="4" cols="40" placeholder="If its different to registered"></textarea><br>
+    <input align="center" type="submit" value="Checkout Now">
 </form>
 
 
