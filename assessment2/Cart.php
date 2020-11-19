@@ -30,6 +30,7 @@ else {
     $delivery = 25;
 }
 $total = $total + $delivery;
+echo"<p>Deliver Charges: $$delivery</p>";
 echo "<p>Total: $$total</p>";
 
 //if the user is logged in than show form for checkout
