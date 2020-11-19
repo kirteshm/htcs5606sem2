@@ -40,13 +40,10 @@
       <td id="rightside">
 
           <br><br>
-          <?php include "login.php"; ?><br>
-          <h2 align="center" style="color: maroon">Free Delivery</h2>
-          <h3 align="center" style="color: maroon">for purchase over $300</h3>
-
-
+              <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
               <li><a href="showCart.php">Shopping Cart</a></li>
+              <h2 align="center" style="color: maroon">Free Delivery for purchase over $300</h2>
 
           <?php
           @session_start();

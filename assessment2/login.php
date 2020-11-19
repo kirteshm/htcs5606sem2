@@ -24,7 +24,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     // show the result
 
     if ($result->num_rows == 1) {
-        echo "You are now Logged in";
+        echo "<h4 align='center' style='color: maroon'>You are now Logged in</h4>";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname " . "lastname"];
             //session start
@@ -34,7 +34,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             $_SESSION["firstname"] = $row["firstname"];
         }
     } else {
-        echo "Wrong username or password";
+        echo "<h4>Wrong username or password</h4><br>";
     }
 }
 ?>
@@ -42,7 +42,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 if (!isset($_SESSION["userID"])) {
     ?>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
-
+        <h3 style="color: maroon" align="center">Please Login:</h3>
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
@@ -52,7 +52,7 @@ if (!isset($_SESSION["userID"])) {
 }
 else{
     ?>
-    <h4><a href="logout.php">Logout</a><br></h4>
+    <h4><a href="logout.php" style="alignment: center">Logout</a><br></h4>
 <?php
 }
 ?>
