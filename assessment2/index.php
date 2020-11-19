@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<div>
+<html>
 <head>
   <meta charset="UTF-8">
   <title>The Pet Food Store</title>
@@ -66,4 +66,5 @@
 
 </body>
 <footer style="alignment: center"><?php include "footer.php" ?></footer>
+
 </html>
