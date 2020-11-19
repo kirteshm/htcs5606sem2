@@ -30,7 +30,7 @@ while ($i<sizeof($orderedProductsIDs)) {
     $Totalprice = $price * $orderedProductsQty;
 
 
-     echo   "<tr align='center'>
+     echo   "<tr style='border: 1px maroon' align='center'>
             <td>$productName</td>
             <td>$orderedProductsQty</td>
             <td>$$price</td>
