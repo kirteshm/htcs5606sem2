@@ -37,10 +37,10 @@
           </div>
 
       </td>
-      <td id="rightside">
+      <td id="rightside" style="alignment: center">
         <div id="cartDiv"></div>
 
-          <div style="alignment: center">
+
               <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
               <li><a href="showCart.php">Shopping Cart</a></li>
@@ -56,7 +56,7 @@
 
         <p id="time"></p>
           <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
-          </div>
+
 
       </td>
     </tr>
