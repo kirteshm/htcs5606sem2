@@ -77,8 +77,9 @@ function createDatabaseConnection()
                ";
         $totalAll = $totalAll + $totalprice;
     }
-    echo "<h3>Total Invoice Price: $$totalAll</h3>";
+
     echo "</table>";
+    echo "<h3>Total Invoice Price: $$totalAll</h3>";
 }
 
 function getProductNameByProductID($productID)

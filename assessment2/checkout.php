@@ -28,10 +28,10 @@ while ($i<sizeof($orderedProductsIDs)){
 
     $i++;
     echo "<tr>
-            <td>$productName</td>
-            <td>$orderedProductsQty</td>
-            <td>$$price</td>
-            <td>$$Totalprice></td>
+            <td align='center'>$productName</td>
+            <td align='center'>$orderedProductsQty</td>
+            <td align='center'>$$price</td>
+            <td align='center'>$$Totalprice</td>
             </tr> ";
 
 
