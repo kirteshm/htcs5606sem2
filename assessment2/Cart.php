@@ -46,9 +46,8 @@ if ($total > 300) {
 }else{
     $total = $total + $delivery;
 }
-echo "<p>Total: $$total</p>";
 echo"<p>Deliver Charges: $$delivery</p>";
-
+echo "<p>Total: $$total</p>";
 
     /**
  * @return Connection
