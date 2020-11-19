@@ -118,6 +118,6 @@
 
 
 </body>
-<footer id="footer"><?php include "footer.php"?></footer>
+<footer style="alignment: center"><?php include "footer.php"?></footer>
 
 </html>

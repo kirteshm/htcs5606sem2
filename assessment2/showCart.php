@@ -62,7 +62,7 @@
 </div>
 
 
-<div id = "footer"><?php include "footer.php"?></div>
+<footer style="alignment: center"><?php include "footer.php" ?></footer>
 
 </body>
 </html>
