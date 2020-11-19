@@ -37,9 +37,7 @@
           </div>
 
       </td>
-      <td id="rightside" style="alignment: center">
-        <div id="cartDiv"></div>
-
+      <td id="rightside">
 
               <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
