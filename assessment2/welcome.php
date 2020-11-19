@@ -1,3 +1,6 @@
+<?php
+@session_destroy()
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
     <title>Welcome to The Pet Food Store</title>
 </head>
 
-<body onload="moveAd(), moveText(), invoice()">
+<body onload="moveAd(), moveText()">
 <div class = "header">
     <img src = "images/mainimage.jpg" alt="Petfood Main Image">
     <div class="logo"><img src="images/logo.png" alt="Petfood Logo"></div>
@@ -47,7 +50,7 @@
                 <?php include "category.php"; ?>
                 <li><a href="Cart.php">Shopping Cart</a></li>
                 <?php
-          @session_destroy();
+          @session_start();
             if (isset($_SESSION["userID"])){
               ?>
                 <li><a href="viewOrder.php">My Orders</a></li>
