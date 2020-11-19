@@ -43,9 +43,9 @@ function createDatabaseConnection()
     while ($row = $result->fetch_assoc()) {
 
 
-        echo "<h2 align='center'>Order Received</h2>";
+        echo "<h2 align='center'>Order ID: ". $row["orderID"]."</h2>";
         echo "<p align='center'>Date & Time: " . $row["orderdate"] . "</p>";
-        echo "<h3>The Pet Food Store - Order ID: ". $row["orderID"]."</h3>";
+        echo "<h3>The Pet Food Store Invoice Details</h3>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
 
