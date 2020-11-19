@@ -4,7 +4,16 @@
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
+?>
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total</th>
+    </tr>
 
+<?php
 $i = 0;
 while ($i<sizeof($orderedProductsIDs)){
 
@@ -14,12 +23,23 @@ while ($i<sizeof($orderedProductsIDs)){
     $price = getProductPriceByProductID($orderedProductsID);
     $Totalprice = $price * $orderedProductsQty;
 
-    echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
+    //echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
     $total = $total + ($price*$orderedProductsQty);
 
     $i++;
+        ?>
+            <tr>
+            <td><?php $productName ?></td>
+            <td><?php $orderedProductsQty ?></td>
+            <td><?php $$price ?></td>
+            <td><?php $$Totalprice ?></td>
+            </tr>
+    <?php
 }
-echo "<p>Total: $$total</p>";
+?>
+</table>
+<?php
+echo "<h3>Order Total Price: $$total</h3>";
 
 /**
  * @return Connection
