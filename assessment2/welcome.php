@@ -36,6 +36,7 @@
             </td>
             <td id="middlecontent">
                 <div>
+                    <img src="images/welcome.jpg" id="welcome">
                     <h2 align="center">You have been successfully registered</h2>
                     <h3 align="center"><a href="index.php">Start Shopping Now!</a></h3>
                 </div>
@@ -45,7 +46,7 @@
                 <div id="cartDiv"></div>
 
                 <?php include "login.php"; ?><br>
-                <?php include "category.php"; ?>
+                <?php include "category.php"; ?><br><br>
                 <li><a href="Cart.php">Shopping Cart</a></li>
                 <?php
           @session_start();
