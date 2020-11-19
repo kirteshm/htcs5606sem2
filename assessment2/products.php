@@ -26,13 +26,11 @@ while ($row = $result->fetch_assoc()) {
     <div class="product">
         <p><?php echo $row["productName"]; ?></p>
         <img src="<?php echo $row["productImage"]; ?>">
-        <p>$<?php echo $row["pricePerUnit"]; ?> ea</p>
+        <p>$<?php echo $row["pricePerUnit"]; ?>0 Each</p>
         <form action="addToCart.php" method="post">
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <label>
-                <input name="qty" type="number" placeholder="Quantity" min="0" size="6">
-            </label>
-            <input type="submit" value="Add to Cart" size="10">
+            <input size="5" name="qty" type="number" placeholder="Quantity" min="0">
+            <input type="submit" value="Add to Cart" size="8"><br>
 
         </form>
 
