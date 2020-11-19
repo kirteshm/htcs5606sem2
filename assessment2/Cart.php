@@ -48,8 +48,7 @@ echo "</table>";
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
 ?>
-  <?php  echo"<p>Deliver Charges: $$delivery</p>";
-    echo "<h2 style='alignment: center'>Total: $$total</h2>"; ?>
+
 <form style="alignment: center" action="checkout.php" method="post">
     <label><h4>Shipping Address</h4></label>
     <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
@@ -70,8 +69,8 @@ if ($total > 300) {
 }else{
     $total = $total + $delivery;
 }
-//echo"<p>Deliver Charges: $$delivery</p>";
-//echo "<h2 style='alignment: center'>Total: $$total</h2>";
+echo"<p>Deliver Charges: $$delivery</p>";
+echo "<h2 style='alignment: center'>Total: $$total</h2>";
 
     /**
  * @return Connection
