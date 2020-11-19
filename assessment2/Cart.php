@@ -20,8 +20,6 @@ while ($i<sizeof($orderedProductsIDs)){
 
     $i++;
 }
-$total = $total + $delivery;
-echo "<p>Total: $$total</p>";
 
 if ($total>300){
     $delivery = 0;
@@ -31,6 +29,9 @@ if ($total>300){
 else {
     $delivery = 25;
 }
+$total = $total + $delivery;
+echo "<p>Total: $$total</p>";
+
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
 ?>
