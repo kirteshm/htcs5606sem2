@@ -37,7 +37,7 @@ while ($i<sizeof($orderedProductsIDs)){
 
 }
 echo "</table>";
-echo "<h3>Order Total Price: $$total</h3>";
+echo "<h3>Invoice Total: $$total</h3>";
 
 /**
  * @return Connection
@@ -158,3 +158,11 @@ while ($i < sizeof($orderedProductsIDs)){
 //clear my shopping cart
 $_SESSION["orderedProductIds"] = [];
 $_SESSION["orderedProductQtys"] = [];
+
+?>
+<style>
+    .invoice {
+        border: 1px solid maroon;
+    }
+</style>
+<?php
