@@ -15,8 +15,7 @@
 <div id="nav">
     <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="dogfood.html">Dog Food</a></li>
-        <li><a href="catfood.html">Cat Food</a></li>
+        <?php include "category.php"?>
         <li><a class="active">About Us</a></li>
         <li><a href="register.php">Register Now</a></li>
     </ul>
