@@ -16,10 +16,11 @@ while ($i<sizeof($orderedProductsIDs)){
     $Totalprice = $price * $orderedProductsQty;
 
     echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-    $total = $total + ($price*$orderedProductsQty) + $delivery;
+    $total = $total + ($price*$orderedProductsQty);
 
     $i++;
 }
+$total = $total + $delivery;
 echo "<p>Total: $$total</p>";
 
 if ($total>300){
