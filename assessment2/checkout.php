@@ -43,11 +43,11 @@ $result = mysqli_query($conn, $sql);
 
 while ($row = $result->fetch_assoc()) {
     $sql2 = "select * from orderline where orderID = " . $row["orderID"];
-
+    $orderID = $row["orderID"];
 }
-echo "<h3 align='center'>Order ID: ". $row["orderID"]."</h3>";
+echo "<h3 align='center'>Order ID:$orderID</h3>";
 echo "</table>";
-echo "<h3 align='left'>Invoice Total: $$total</h3>";
+echo "<h3 style='alignment: right'>Invoice Total: $$total</h3>";
 
 
 
