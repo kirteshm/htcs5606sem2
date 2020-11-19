@@ -118,7 +118,7 @@ function getProductPriceByProductID($productID){
 <?php
 
 
-//@session_start();
+@session_start();
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];

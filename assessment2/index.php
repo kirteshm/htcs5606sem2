@@ -6,7 +6,7 @@
   <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
   <script src="js/script.js"></script>
 </head>
-<body onload="moveAd(), moveText()">
+<body onload="moveAd(), moveText(), invoice()">
     <div class = "header">
         <img src = "images/mainimage.jpg" alt="Petfood Main Image">
         <div class="logo"><img src="images/logo.png" alt="Petfood Logo"></div>
