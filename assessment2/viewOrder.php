@@ -61,7 +61,6 @@ function createDatabaseConnection()
                ";
 
     }
-        echo "<h3>Total Invoice:</h3>";include "Cart.php";
     echo "</table>";
 }
 
