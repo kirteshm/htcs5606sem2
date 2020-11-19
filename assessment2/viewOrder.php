@@ -111,7 +111,7 @@ function getProductPriceByProductID($productID){
 ?>
 <style>
     .invoice {
-        border: 1px solid black;
+        border: 2px solid black;
     }
 </style>
 <?php

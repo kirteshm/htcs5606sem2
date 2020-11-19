@@ -47,7 +47,7 @@
                 <?php include "category.php"; ?>
                 <li><a href="Cart.php">Shopping Cart</a></li>
                 <?php
-          //@session_start();
+          @session_destroy();
             if (isset($_SESSION["userID"])){
               ?>
                 <li><a href="viewOrder.php">My Orders</a></li>
