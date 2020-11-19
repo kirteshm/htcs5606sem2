@@ -40,9 +40,11 @@
       <td id="rightside">
         <div id="cartDiv"></div>
 
-          <?php include "login.php"; ?><br>
-          <?php include "category.php"; ?><br><br>
-          <li><a href="showCart.php">Shopping Cart</a></li>
+          <div style="alignment: center">
+              <?php include "login.php"; ?><br>
+              <?php include "category.php"; ?><br><br>
+              <li><a href="showCart.php">Shopping Cart</a></li>
+
           <?php
           @session_start();
             if (isset($_SESSION["userID"])){
@@ -54,7 +56,7 @@
 
         <p id="time"></p>
           <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
-
+          </div>
 
       </td>
     </tr>
