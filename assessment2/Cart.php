@@ -50,10 +50,10 @@ if (isset($_SESSION["userID"])){
 ?>
   <?php  echo"<p>Deliver Charges: $$delivery</p>";
     echo "<h2 style='alignment: center'>Total: $$total</h2>"; ?>
-<form action="checkout.php" method="post">
-    <label style="alignment: center"><h4>Shipping Address</h4></label>
-    <textarea style="alignment: center" name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
-    <input style="alignment: center" type="submit" value="Checkout Now">
+<form style="alignment: center" action="checkout.php" method="post">
+    <label><h4>Shipping Address</h4></label>
+    <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
+    <input type="submit" value="Checkout Now">
 </form>
 
 
