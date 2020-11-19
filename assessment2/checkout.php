@@ -4,7 +4,7 @@
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
-
+echo "<h3>We have received your order. Thank you!</h3>";
 echo "<table class = invoice style='width:90%'>
         <tr class='invoice'>
         <th>Product Name</th>
