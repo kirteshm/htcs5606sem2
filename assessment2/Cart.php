@@ -30,7 +30,7 @@ if (isset($_SESSION["userID"])){
 ?>
 
 <form action="checkout.php" method="post">
-    <textarea name="shipAddress" rows="5" cols="20" placeholder="Shipping Address if different to registered address"></textarea>
+    <textarea name="shipAddress" rows="10" cols="20" placeholder="Shipping Address if different to registered address"></textarea>
     <input type="submit" value="Checkout Now">
 </form>
 

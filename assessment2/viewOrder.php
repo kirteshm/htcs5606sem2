@@ -1,11 +1,12 @@
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
-$orderedProductsIDs = $_SESSION["orderedProductIds"];
+
+/*$orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
-while ($i<sizeof($orderedProductsIDs)) {
+ while ($i<sizeof($orderedProductsIDs)) {
 
     $orderedProductsID = $orderedProductsIDs[$i];
     $orderedProductsQty = $orderedProductsQtys[$i];
@@ -15,7 +16,7 @@ while ($i<sizeof($orderedProductsIDs)) {
 
     $totalAll = $totalAll + ($price * $orderedProductsQty);
     $i++;
-}
+}*/
 
 function createDatabaseConnection()
 {
@@ -75,7 +76,7 @@ function createDatabaseConnection()
                ";
 
     }
-    echo "<h3>Total Invoice Price: $$totalAll</h3>";
+    //echo "<h3>Total Invoice Price: $$totalAll</h3>";
     echo "</table>";
 }
 
