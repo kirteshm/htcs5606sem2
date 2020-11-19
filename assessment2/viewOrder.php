@@ -74,9 +74,18 @@ function createDatabaseConnection()
                ";
         $totalAll = $totalAll + $totalprice; //total invoice price
     }
+    //delivery charges
+    $delivery = 0;
+    if ($totalAll>300){
+        $delivery = 0;
+        $totalAll = $totalAll + $delivery;
+    }else{
+        $delivery = 25;
+        $totalAll = $totalAll + $delivery;
+    }
 
     echo "</table>";
-    echo "<h3 align='right'>Total Invoice Price: $$totalAll   </h3><br>";
+    echo "<h3 align='right'>Total Invoice Price: $$totalAll</h3><br>";
 
 }
 

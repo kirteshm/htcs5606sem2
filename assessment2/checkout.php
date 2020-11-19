@@ -44,10 +44,20 @@ $result = mysqli_query($conn, $sql);
 while ($row = $result->fetch_assoc()) {
     $sql2 = "select * from orderline where orderID = " . $row["orderID"];
     $orderID = $row["orderID"];
+    $orderID++;
+}
+//delivery charges
+$delivery = 0;
+if ($total>300){
+    $delivery = 0;
+    $total = $total + $delivery;
+}else{
+    $delivery = 25;
+    $total = $total + $delivery;
 }
 echo "<h3 align='center'>Order ID:$orderID</h3>";
 echo "</table>";
-echo "<h3 style='alignment: right'>Invoice Total: $$total</h3>";
+echo "<h4 align='right'>Invoice Total: $$total</h4>";
 
 
 

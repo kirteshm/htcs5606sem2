@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d31a532-6d9e-4162-b575-b96dee9a8bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assessment2/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessment2/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/aboutus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/reviewOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/reviewOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/showCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/showCart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessment2/yourOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/assessment2/yourOrder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +102,7 @@
       <workItem from="1605667496417" duration="16890000" />
       <workItem from="1605727452223" duration="24124000" />
       <workItem from="1605777349549" duration="2510000" />
-      <workItem from="1605808015445" duration="17351000" />
+      <workItem from="1605808015445" duration="18109000" />
     </task>
     <servers />
   </component>
@@ -140,9 +147,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="371" y="139" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" timestamp="1605556902151" />
-    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1605654859459">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1165" y="436" key="NewPhpFileDialog" timestamp="1605826663316">
+      <screen x="-1920" y="8" width="1920" height="1050" />
     </state>
+    <state x="-1165" y="436" key="NewPhpFileDialog/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1605826663316" />
     <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1605654859459" />
     <state x="258" y="44" key="SettingsEditor" timestamp="1604950542803">
       <screen x="0" y="0" width="1536" height="834" />
