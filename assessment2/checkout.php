@@ -39,15 +39,7 @@ while ($i<sizeof($orderedProductsIDs)){
 echo "</table>";
 echo "<h3>Invoice Total: $$total</h3>";
 
-$conn = createDatabaseConnection();
 
-$sql = "select * from orderline where orderID =". $_GET["orderID"];
-
-$result = mysqli_query($conn, $sql);
-while ($row = $result->fetch_assoc()) {
-    echo $row["orderId"];
-}
-echo "<p3>Your order ID ". $row["orderId"]. "</p3>";
 
 /**
  * @return Connection
