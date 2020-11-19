@@ -66,6 +66,7 @@
             <div><img class="regpic" src="images/register.png" alt="Register pic"</div>
 
         </body>
-        <div id = "footer"><?php include "footer.php"?></div>
+
+        <footer><?php include "footer.php"?></footer>
 
 </html>

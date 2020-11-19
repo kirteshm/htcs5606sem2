@@ -118,6 +118,6 @@
 
 
 </body>
+<footer><?php include "footer.php"?></footer>
 
-<div id = "footer"><?php include "footer.php"?></div>
 </html>
