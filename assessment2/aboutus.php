@@ -116,18 +116,8 @@
     </table>
 </div>
 
-<!-- The Voice Page -->
-<div id="voicePage" class="voice">
-
-    <!-- Modal content -->
-    <div id="voice-content">
-        <span class="close">&times;</span>
-        <p>Please check your invoice</p>
-    </div>
-
-</div>
-
-<div id="footer">&copy; The Pet Food Shop Limited</div>
 
 </body>
+
+<div id = "footer"><?php include "footer.php"?></div>
 </html>

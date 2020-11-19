@@ -66,6 +66,6 @@
             <div><img class="regpic" src="images/register.png" alt="Register pic"</div>
 
         </body>
-        <div id="footer">&copy; The Pet Food Shop Limited</div>
+        <div id = "footer"><?php include "footer.php"?></div>
 
 </html>

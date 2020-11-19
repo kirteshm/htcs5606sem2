@@ -62,5 +62,5 @@
 
 
 </body>
-<div id="footer">&copy; The Pet Food Shop Limited</div>
+<div id = "footer"><?php include "footer.php"?></div>
 </html>

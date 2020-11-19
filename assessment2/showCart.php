@@ -61,18 +61,8 @@
     </table>
 </div>
 
-<!-- The inVoice Page -->
-<div id="voicePage" class="voice">
 
-    <!-- Modal content -->
-    <div id="voice-content">
-        <span class="close">&times;</span>
-        <p>Invoice <span style="font-weight: bold">Total</span></p>
-    </div>
-
-</div>
-
-<div id="footer">&copy; The Pet Food Shop Limited</div>
+<div id = "footer"><?php include "footer.php"?></div>
 
 </body>
 </html>
