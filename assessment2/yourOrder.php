@@ -36,7 +36,6 @@
             <td id="middlecontent">
                 <div>
                     <?php include "viewOrder.php"; ?>
-                    <div><p align="center">Thank you for your Order - please contact us for any issues</p></div>
                     <br><br>
 
                 </div>

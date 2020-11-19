@@ -61,6 +61,7 @@ function createDatabaseConnection()
                <th>Product Quantity </th>
                <th>Total Price </th>
                </tr>   ";
+        $totalAll= 0;
     while ($row2 = $result2->fetch_assoc()) {
         $name = getProductNameByProductID($row2["productID"]);
         $price = getProductPriceByProductID($row2["productID"]);
@@ -74,9 +75,9 @@ function createDatabaseConnection()
                <td align='center'>$$totalprice</td>
                </tr>               
                ";
-
+        $totalAll = $totalAll + $totalprice;
     }
-    //echo "<h3>Total Invoice Price: $$totalAll</h3>";
+    echo "<h3>Total Invoice Price: $$totalAll</h3>";
     echo "</table>";
 }
 
