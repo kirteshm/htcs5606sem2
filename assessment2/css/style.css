@@ -99,12 +99,14 @@ p {
 }
 
 #leftside {
+    position:fixed;
     width: 30%;
     vertical-align: top;
     position:-webkit-sticky; position:sticky; top:0;
 }
 
 #rightside {
+    position: fixed;
     width: 20%;
     vertical-align: top;
     position:-webkit-sticky; position:sticky; top:0;
