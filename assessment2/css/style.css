@@ -101,11 +101,15 @@ p {
 #leftside {
     width: 30%;
     vertical-align: top;
+    position: sticky;
+    top: 0;
 }
 
 #rightside {
     width: 20%;
     vertical-align: top;
+    position: sticky;
+    top: 0;
 }
 
 #sideAdv {
