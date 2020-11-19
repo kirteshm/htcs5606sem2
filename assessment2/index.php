@@ -55,13 +55,7 @@
         <p id="time"></p>
           <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
 
-        <script>
-          var myVar = setInterval(myTimer, 1000);
-          function myTimer() {
-            d = new Date();
-            document.getElementById("time").innerHTML = "Current Local Time " + d.toLocaleTimeString();
-          }
-        </script>
+
       </td>
     </tr>
   </table>
