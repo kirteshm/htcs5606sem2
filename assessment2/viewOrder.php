@@ -53,7 +53,7 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo " <table class = invoice style='width:90%'>
+        echo " <table class = invoice style='width:90%' align='center'>
                <tr class='invoice'>
                <th>Product Name  </th>
                <th>Product Quantity </th>
@@ -85,7 +85,7 @@ function createDatabaseConnection()
     }
 
     echo "</table>";
-    echo "<h3 align='right'>Total Invoice Price: $$totalAll</h3><br>";
+    echo "<h3 align='left'>Total Invoice Price: $$totalAll</h3><br>";
 
 }
 
