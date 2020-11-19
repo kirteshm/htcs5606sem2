@@ -42,7 +42,7 @@
 
           <?php include "login.php"; ?><br>
           <?php include "category.php"; ?>
-          <li><a href="Cart.php">Shopping Cart</a></li>
+          <li><a href="showCart.php">Shopping Cart</a></li>
           <?php
           @session_start();
             if (isset($_SESSION["userID"])){

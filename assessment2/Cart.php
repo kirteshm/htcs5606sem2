@@ -6,7 +6,7 @@ $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
-$delivery = 25;
+$delivery = 25; // default delivery charge
 while ($i<sizeof($orderedProductsIDs)) {
 
     $orderedProductsID = $orderedProductsIDs[$i];
@@ -20,9 +20,6 @@ while ($i<sizeof($orderedProductsIDs)) {
 
     $i++;
 }
-
-//echo "<p>Total: $$total</p>";
-
 
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
@@ -39,10 +36,11 @@ if (isset($_SESSION["userID"])){
 else{
     Echo "Please Login to place the order";
 }
+//free delivery over $300 purchase
+
 if ($total > 300) {
     $delivery = 0;
     echo "Congratulation! you qualified for Free Delivery";
-    //return $delivery;
 }else{
     $total = $total + $delivery;
 }
