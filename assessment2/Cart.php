@@ -59,12 +59,12 @@ else{
 
 if ($total > 300) {
     $delivery = 0;
-    echo "Congratulation! you qualified for Free Delivery";
+    echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
 }else{
     $total = $total + $delivery;
 }
 echo"<p>Deliver Charges: $$delivery</p>";
-echo "<p>Total: $$total</p>";
+echo "<h4>Total: $$total</h4>";
 
     /**
  * @return Connection
