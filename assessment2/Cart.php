@@ -1,7 +1,13 @@
 <?php
 
 @session_start();
-
+?>
+<style>
+    .cartdetails {
+        border: 1px solid maroon;
+    }
+</style>
+<?php
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
@@ -43,10 +49,10 @@ echo "</table>";
 if (isset($_SESSION["userID"])){
 ?>
 
-<form style="border: 1px solid maroon" action="checkout.php" method="post">
-    <label>Shipping Address</label><br>
-    <textarea name="shipAddress" rows="4" cols="40" placeholder="If its different to registered"></textarea><br>
-    <input align="center" type="submit" value="Checkout Now">
+<form action="checkout.php" method="post">
+    <label style="alignment: center"><h4>Shipping Address</h4></label><br>
+    <textarea style="alignment: center" name="shipAddress" rows="4" cols="70" placeholder="If its different to registered"></textarea><br><br>
+    <input style="alignment: center" type="submit" value="Checkout Now">
 </form>
 
 
@@ -64,7 +70,7 @@ if ($total > 300) {
     $total = $total + $delivery;
 }
 echo"<p>Deliver Charges: $$delivery</p>";
-echo "<h4>Total: $$total</h4>";
+echo "<h2 style='alignment: center'>Total: $$total</h2>";
 
     /**
  * @return Connection
