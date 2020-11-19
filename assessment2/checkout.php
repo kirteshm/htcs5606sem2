@@ -4,7 +4,7 @@
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
-echo "<h3>We have received your order. Thank you!</h3>";
+echo "<h2 align='center'>We have received your order. Thank you!</h2>";
 echo "<table class = invoice style='width:90%'>
         <tr class='invoice'>
         <th>Product Name</th>
@@ -28,10 +28,10 @@ while ($i<sizeof($orderedProductsIDs)){
 
     $i++;
     echo "<tr>
-            <td><?php $productName ?></td>
-            <td><?php $orderedProductsQty ?></td>
-            <td><?php $$price ?></td>
-            <td><?php $$Totalprice ?></td>
+            <td>$productName</td>
+            <td>$orderedProductsQty</td>
+            <td>$$price</td>
+            <td>$$Totalprice></td>
             </tr> ";
 
 
