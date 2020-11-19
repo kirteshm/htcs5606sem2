@@ -53,7 +53,7 @@
           ?>
 
         <p id="time"></p>
-          <p style="alignment: center"><span style="color:green">Free Delivery for total over $300</span></p>
+          <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
 
         <script>
           var myVar = setInterval(myTimer, 1000);
