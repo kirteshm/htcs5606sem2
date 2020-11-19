@@ -105,7 +105,7 @@ p {
 }
 
 #leftside {
-    width: 30%;
+    width: 25%;
     vertical-align: top;
 
 }
@@ -137,7 +137,7 @@ p {
 #text1 {
     position: relative;
     top: -300px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     color: brown;
 }
@@ -145,7 +145,7 @@ p {
 #text2 {
     position: relative;
     top: -400px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: brown;
     display: none;
