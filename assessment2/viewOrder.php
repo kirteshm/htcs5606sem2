@@ -54,7 +54,32 @@ function createDatabaseConnection()
         $totalprice = $price * $qty1;
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
-         echo "<tr>  
+        $orderedProductsIDs = $_SESSION["orderedProductIds"];
+        $orderedProductsQtys = $_SESSION["orderedProductQtys"];
+
+        $i = 0;
+        while ($i < sizeof($orderedProductsIDs)) {
+
+            $orderedProductsID = $orderedProductsIDs[$i];
+            $orderedProductsQty = $orderedProductsQtys[$i];
+            $productName = getProductNameByProductID($orderedProductsID);
+            $price = getProductPriceByProductID($orderedProductsID);
+            $Totalprice = $price * $orderedProductsQty;
+
+            echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
+            $total = $total + ($price * $orderedProductsQty);
+
+            $i++;
+        }
+
+
+
+
+
+
+
+
+        echo "<tr>  
                <td align='center'>$name</td>
                <td align='center'>".$row2["Qty"]."</td>
                <td align='center'>$$totalprice</td>
@@ -62,6 +87,7 @@ function createDatabaseConnection()
                ";
 
     }
+        echo "<h3>Total Invoice: $$total</h3>";
     echo "</table>";
 }
 
@@ -118,23 +144,3 @@ function getProductPriceByProductID($productID){
 <?php
 
 
-@session_start();
-
-$orderedProductsIDs = $_SESSION["orderedProductIds"];
-$orderedProductsQtys = $_SESSION["orderedProductQtys"];
-
-$i = 0;
-while ($i < sizeof($orderedProductsIDs)) {
-
-    $orderedProductsID = $orderedProductsIDs[$i];
-    $orderedProductsQty = $orderedProductsQtys[$i];
-    $productName = getProductNameByProductID($orderedProductsID);
-    $price = getProductPriceByProductID($orderedProductsID);
-    $Totalprice = $price * $orderedProductsQty;
-
-    echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-    $total = $total + ($price * $orderedProductsQty);
-
-    $i++;
-}
-echo "<h3>Total Invoice: $$total</h3>";
