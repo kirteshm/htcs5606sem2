@@ -43,17 +43,17 @@
               <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
               <li><a href="showCart.php">Shopping Cart</a></li>
-              <h2 align="center" style="color: maroon">Free Delivery for purchase over $300</h2>
-
           <?php
           @session_start();
             if (isset($_SESSION["userID"])){
               ?>
-          <li><a href="yourOrder.php">My Orders</a></li>
+          <li><a href="yourOrder.php">My Orders</a></li><br>
+
           <?php
           }
-          ?>
 
+          ?>
+          <h2 align="center" style="color: maroon">Free Delivery for purchase over $300</h2>
 
 
 

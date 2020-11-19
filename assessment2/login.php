@@ -43,16 +43,17 @@ if (!isset($_SESSION["userID"])) {
     ?>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
         <h3 style="color: maroon" align="center">Please Login:</h3>
+        <div align="center">
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
-
+        </div>
     </form>
     <?php
 }
 else{
     ?>
-    <h4><a href="logout.php" style="alignment: center">Logout</a><br></h4>
+    <h4 align="center"><a href="logout.php">Logout</a><br></h4>
 <?php
 }
 ?>
