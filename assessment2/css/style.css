@@ -95,7 +95,8 @@ p {
 }
 
 #welcome {
-    size: auto;
+    height: auto;
+    max-width: 30%;
 }
 
 /* main */
