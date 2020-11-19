@@ -8,12 +8,15 @@
     }
 </style>
 <?php
+
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
 $delivery = 25; // default delivery charge
+
 echo "<h2 align='center'>Shopping Cart</h2>";
+
 echo "<table class='cartdetails' style='width: 90%'>
             <tr>
             <th>Product Name</th>
@@ -21,6 +24,7 @@ echo "<table class='cartdetails' style='width: 90%'>
             <th>Price Each</th>
             <th>Total Price</th>
             </tr>";
+
 while ($i<sizeof($orderedProductsIDs)) {
 
     $orderedProductsID = $orderedProductsIDs[$i];
@@ -30,7 +34,7 @@ while ($i<sizeof($orderedProductsIDs)) {
     $Totalprice = $price * $orderedProductsQty;
 
 
-     echo   "<tr style='border: 1px maroon' align='center'>
+     echo   "<tr align='center'>
             <td>$productName</td>
             <td>$orderedProductsQty</td>
             <td>$$price</td>
@@ -45,8 +49,8 @@ echo "</table>";
 ?>
 <br>
 <?php
-//free delivery over $300 purchase
 
+//free delivery over $300 purchase
 if ($total > 300) {
     $delivery = 0;
     echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
@@ -59,21 +63,17 @@ echo "<h2 style='alignment: center'>Total: $$total</h2>";
 //if the user is logged in than show form for checkout
 if (isset($_SESSION["userID"])){
     ?>
-
     <form style="alignment: center" action="checkout.php" method="post">
         <label><h4>Shipping Address</h4></label>
         <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
         <input type="submit" value="Checkout Now">
     </form>
-
-
-    <?php
+   <?php
 }
 else{
     Echo "Please Login to place the order";
 
 }
-
     /**
  * @return Connection
  */
