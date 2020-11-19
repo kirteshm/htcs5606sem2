@@ -5,7 +5,7 @@
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 echo "<h2 align='center'>We have received your order. Thank you!</h2>";
-echo "<table class = invoice style='width:90%'>
+echo "<table class = invoice align='center' style='width:90%'>
         <tr class='invoice'>
         <th>Product Name</th>
         <th>Quantity</th>
@@ -37,9 +37,17 @@ while ($i<sizeof($orderedProductsIDs)){
 
 }
 echo "</table>";
-echo "<h3>Invoice Total: $$total</h3>";
+echo "<h3 align='left'>Invoice Total: $$total</h3>";
 
+$userID = $_SESSION["userID"];
+$conn = createDatabaseConnection();
+$sql = "select * from orders where userID = $userID";
+$result = mysqli_query($conn, $sql);
 
+while ($row = $result->fetch_assoc()) {
+    $sql2 = "select * from orderline where orderID = " . $row["orderID"];
+    echo "<h3 align='center'>Order ID: ". $row["orderID"]."</h3>";
+}
 
 /**
  * @return Connection

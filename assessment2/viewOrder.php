@@ -65,7 +65,6 @@ function createDatabaseConnection()
         $price = getProductPriceByProductID($row2["productID"]);
         $qty1 = $row2["Qty"];
         $totalprice = $price * $qty1;
-       // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
 
         echo "<tr>  
                <td align='center'>$name</td>
