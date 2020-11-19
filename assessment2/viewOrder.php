@@ -41,11 +41,11 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-        echo "<table><tr>";
-        echo "<td><h2 align='left'>The Pet Food Store Invoice Details</h2></td>";
-        echo "<td><h3 align='left'>Order ID: ". $row["orderID"]."</h3></td>";
-        echo "<td><p align='left'>Date & Time: " . $row["orderdate"] . "</p></td>";
-        echo "</tr></table>";
+        echo "<table>";
+        echo "<tr><td><h2 align='left'>The Pet Food Store Invoice Details</h2></td></tr>";
+        echo "<tr><td><h3 align='left'>Order ID: ". $row["orderID"]."</h3></td></tr>";
+        echo "<tr><td><p align='left'>Date & Time: " . $row["orderdate"] . "</p></td></tr>";
+        echo "</table>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
 
