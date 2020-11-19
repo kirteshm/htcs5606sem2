@@ -17,7 +17,7 @@
   <ul>
     <li><a class="active" href="index.php">Home</a></li>
     <?php include "category.php";?>
-    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="aboutus.php">About Us</a></li>
     <li><a href="register.php">Register Now</a></li>
   </ul>
 </div>
