@@ -20,6 +20,7 @@ p {
     margin-right: auto;
     width: 50%;
     height: 200px;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 .logo {
@@ -28,6 +29,7 @@ p {
     animation-name: movingLogo;
     animation-duration: 4s;
     animation-iteration-count: unset;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 /* Header Pictures */
@@ -53,6 +55,7 @@ p {
 	font-weight: bold;
 	color: white;
 	margin-top: 15px;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 /* Menu */
@@ -63,10 +66,12 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: brown;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 #nav li {
     float: left;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 #nav li a {
@@ -75,15 +80,18 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 /*hover */
 #nav li a:hover {
     background-color: #4CAF50;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 #nav .active {
     background-color: #4CAF50;
+    position:-webkit-sticky; position:sticky; top:0;
 }
 
 /* footer */
