@@ -1,6 +1,4 @@
-<?php
-@session_destroy()
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +37,7 @@
             <td id="middlecontent">
                 <div>
                     <h2 align="center">You have been successfully registered</h2>
-                    <h3 align="center">Please Login to Continue</h3>
+                    <h3 align="center"><a href="index.php">Start Shopping Now!</a></h3>
                 </div>
 
             </td>
