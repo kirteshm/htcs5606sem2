@@ -94,6 +94,10 @@ p {
     color: white;
 }
 
+#welcome {
+    size: auto;
+}
+
 /* main */
 #maintable {
     width: 100%;
