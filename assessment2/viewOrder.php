@@ -41,11 +41,11 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-        echo "<form>";
-        echo "<h2 align='right'>The Pet Food Store Invoice Details</h2>";
-        echo "<h3 align='right'>Order ID: ". $row["orderID"]."</h3>";
-        echo "<p align='right'>Date & Time: " . $row["orderdate"] . "</p>";
-        echo "</form>";
+        echo "<table><tr>";
+        echo "<td><h2 align='left'>The Pet Food Store Invoice Details</h2></td>";
+        echo "<td><h3 align='left'>Order ID: ". $row["orderID"]."</h3></td>";
+        echo "<td><p align='left'>Date & Time: " . $row["orderdate"] . "</p></td>";
+        echo "</tr></table>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
 
 
@@ -77,8 +77,8 @@ function createDatabaseConnection()
     }
 
     echo "</table>";
-    echo "<h3>Total Invoice Price: $$totalAll</h3>";
-    echo "<h3 align='center'>---------------------------------------------------------------</h3>";
+    echo "<h3 align='right'>Total Invoice Price: $$totalAll</h3><br>";
+
 }
 
 function getProductNameByProductID($productID)
