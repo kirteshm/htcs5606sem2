@@ -5,6 +5,24 @@ $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
 
+
+$i = 0;
+while ($i < sizeof($orderedProductsIDs)) {
+
+    $orderedProductsID = $orderedProductsIDs[$i];
+    $orderedProductsQty = $orderedProductsQtys[$i];
+    $productName = getProductNameByProductID($orderedProductsID);
+    $price = getProductPriceByProductID($orderedProductsID);
+    $TotalpriceAll = $price * $orderedProductsQty;
+
+    echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
+    $total = $total + ($price * $orderedProductsQty);
+
+    $i++;
+}
+
+
+
 function createDatabaseConnection()
 {
     //create database connection
@@ -54,24 +72,6 @@ function createDatabaseConnection()
         $qty1 = $row2["Qty"];
         $totalprice = $price * $qty1;
        // echo "<p>Product Name: " . $name .  " Qty: " . $row2["Qty"] . "</p>";
-
-
-
-        $i = 0;
-        while ($i < sizeof($orderedProductsIDs)) {
-
-            $orderedProductsID = $orderedProductsIDs[$i];
-            $orderedProductsQty = $orderedProductsQtys[$i];
-            $productName = getProductNameByProductID($orderedProductsID);
-            $price = getProductPriceByProductID($orderedProductsID);
-            $TotalpriceAll = $price * $orderedProductsQty;
-
-            echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-            $total = $total + ($price * $orderedProductsQty);
-
-            $i++;
-        }
-
 
         echo "<tr>  
                <td align='center'>$name</td>
