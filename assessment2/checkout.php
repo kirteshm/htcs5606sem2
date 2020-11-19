@@ -4,16 +4,15 @@
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
-?>
-<table>
-    <tr>
+
+echo "<table class = invoice style='width:90%'>
+        <tr class='invoice'>
         <th>Product Name</th>
         <th>Quantity</th>
         <th>Unit Price</th>
         <th>Total</th>
-    </tr>
+        </tr> ";
 
-<?php
 $i = 0;
 while ($i<sizeof($orderedProductsIDs)){
 
@@ -27,18 +26,16 @@ while ($i<sizeof($orderedProductsIDs)){
     $total = $total + ($price*$orderedProductsQty);
 
     $i++;
-        ?>
-            <tr>
-            <td><?php $productName ?></td>
-            <td><?php $orderedProductsQty ?></td>
-            <td><?php $$price ?></td>
-            <td><?php $$Totalprice ?></td>
-            </tr>
-    <?php
+
+        echo "<tr>
+            <td align='center'><?php $productName ?></td>
+            <td align='center'><?php $orderedProductsQty ?></td>
+            <td align='center'><?php $$price ?></td>
+            <td align='center'><?php $$Totalprice ?></td>
+            </tr> ";
+
 }
-?>
-</table>
-<?php
+echo "</table>";
 echo "<h3>Order Total Price: $$total</h3>";
 
 /**
