@@ -8,7 +8,7 @@
     <title>Welcome to The Pet Food Store</title>
 </head>
 
-<body onload="moveAd(), moveText(), invoice()">
+<body onload="moveAd(), moveText()">
 <div class = "header">
     <img src = "images/mainimage.jpg" alt="Petfood Main Image">
     <div class="logo"><img src="images/logo.png" alt="Petfood Logo"></div>

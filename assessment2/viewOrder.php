@@ -109,9 +109,32 @@ function getProductPriceByProductID($productID){
 }
 
 ?>
+
 <style>
     .invoice {
         border: 2px solid black;
     }
 </style>
 <?php
+
+
+//@session_start();
+
+$orderedProductsIDs = $_SESSION["orderedProductIds"];
+$orderedProductsQtys = $_SESSION["orderedProductQtys"];
+
+$i = 0;
+while ($i < sizeof($orderedProductsIDs)) {
+
+    $orderedProductsID = $orderedProductsIDs[$i];
+    $orderedProductsQty = $orderedProductsQtys[$i];
+    $productName = getProductNameByProductID($orderedProductsID);
+    $price = getProductPriceByProductID($orderedProductsID);
+    $Totalprice = $price * $orderedProductsQty;
+
+    echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
+    $total = $total + ($price * $orderedProductsQty);
+
+    $i++;
+}
+echo "<h3>Total Invoice: $$total</h3>";
