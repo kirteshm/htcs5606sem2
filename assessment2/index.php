@@ -52,9 +52,9 @@
           }
           ?>
 
-        <p id="time"></p>
-          <h3 style="alignment: center"><span style="color:green">Free Delivery for purchases over $300</span></h3>
 
+          <h1><span style="color:maroon">Free Delivery</span></h1>
+          <h2><span style="color:maroon">for purchase over $300</span></h2>
 
       </td>
     </tr>
