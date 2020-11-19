@@ -45,22 +45,6 @@ echo "</table>";
 ?>
 <br>
 <?php
-//if the user is logged in than show form for checkout
-if (isset($_SESSION["userID"])){
-?>
-
-<form style="alignment: center" action="checkout.php" method="post">
-    <label><h4>Shipping Address</h4></label>
-    <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
-    <input type="submit" value="Checkout Now">
-</form>
-
-
-<?php
-}
-else{
-    Echo "Please Login to place the order";
-}
 //free delivery over $300 purchase
 
 if ($total > 300) {
@@ -71,6 +55,24 @@ if ($total > 300) {
 }
 echo"<p>Deliver Charges: $$delivery</p>";
 echo "<h2 style='alignment: center'>Total: $$total</h2>";
+
+//if the user is logged in than show form for checkout
+if (isset($_SESSION["userID"])){
+    ?>
+
+    <form style="alignment: center" action="checkout.php" method="post">
+        <label><h4>Shipping Address</h4></label>
+        <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
+        <input type="submit" value="Checkout Now">
+    </form>
+
+
+    <?php
+}
+else{
+    Echo "Please Login to place the order";
+
+}
 
     /**
  * @return Connection
