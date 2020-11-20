@@ -265,12 +265,12 @@ p {
 }
 .button {
     background-color: white;
-    color: black;
-    border: 2px solid #4CAF50;
+    color: maroon;
+    border: 2px solid maroon;
 }
 
 .button:hover {
-    background-color: #4CAF50;
+    background-color: maroon;
     color: white;
 }
 
