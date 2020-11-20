@@ -1,21 +1,17 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <?php
 
 @session_start();
-?>
-<style>
-    .cartdetails {
-        border: 1px solid maroon;
-    }
-</style>
-<?php
+
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
-
+echo "<div class = w3-container>";
 echo "<h2 align='center'>Shopping Cart</h2>";
 
-echo "<table class='cartdetails' style='width: 90%'>
+echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
             <tr>
             <th>Product Name</th>
             <th>Quantity</th>

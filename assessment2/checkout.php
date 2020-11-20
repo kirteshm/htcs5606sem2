@@ -183,10 +183,5 @@ while ($i < sizeof($orderedProductsIDs)){
 $_SESSION["orderedProductIds"] = [];
 $_SESSION["orderedProductQtys"] = [];
 
-?>
-<style>
-    .invoice {
-        border: 1px solid maroon;
-    }
-</style>
-<?php
+
+

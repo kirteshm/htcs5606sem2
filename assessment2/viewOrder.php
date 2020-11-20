@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
@@ -53,7 +54,8 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo " <table class = invoice style='width:90%' align='center'>
+        echo "<div class = w3-container>";
+        echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
                <tr class='invoice'>
                <th>Product Name  </th>
                <th>Product Quantity </th>
@@ -134,12 +136,6 @@ function getProductPriceByProductID($productID){
 
 ?>
 
-<style>
-    .invoice {
-        border: 1px solid maroon;
-    }
-</style>
-<?php
 
 
 
