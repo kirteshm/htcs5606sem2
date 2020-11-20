@@ -54,7 +54,7 @@ function createDatabaseConnection()
 
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
-        echo "<div class = w3-container>";
+
         echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
                <tr class='invoice'>
                <th>Product Name  </th>
