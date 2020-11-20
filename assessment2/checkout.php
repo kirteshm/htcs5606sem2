@@ -39,15 +39,17 @@ while ($i<sizeof($orderedProductsIDs)){
 
 }
 $userID = $_SESSION["userID"];
+$orderID =$_SESSION["orderID"];
+
 $conn = createDatabaseConnection();
 $sql = "select * from orders where userID = $userID";
 $result = mysqli_query($conn, $sql);
+$sql2 = "select * from orderline where orderID = $orderID";
+/*while ($row = $result->fetch_assoc()) {
 
-while ($row = $result->fetch_assoc()) {
-    $sql2 = "select * from orderline where orderID = " . $row["orderID"];
     $orderID = $row["orderID"];
     $orderID++;
-}
+}*/
 //delivery charges
 $delivery = 0;
 if ($total>300){

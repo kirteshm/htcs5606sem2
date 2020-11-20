@@ -77,7 +77,7 @@ function createDatabaseConnection()
         $totalAll = $totalAll + $totalprice; //total invoice price
     }
     //delivery charges
-    $delivery = 0;
+    $delivery = 25;
     if ($totalAll>300){
         $delivery = 0;
         $totalAll = $totalAll + $delivery;
