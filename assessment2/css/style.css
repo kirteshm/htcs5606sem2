@@ -165,7 +165,7 @@ p {
     width: 30%;
     vertical-align: top;
    /* display: inline-block; */
-   /* alignment: center; */
+    alignment: center;
     color: brown;
 }
 
