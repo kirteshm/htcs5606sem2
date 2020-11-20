@@ -167,6 +167,7 @@ p {
     alignment: center;
     color: brown;
     margin-right: 20px;
+    margin-left: 0;
 }
 
 .product img {
