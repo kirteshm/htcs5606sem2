@@ -111,11 +111,10 @@ p {
 }
 
 #rightside {
-    width: 30%;
+    width: 20%;
     vertical-align: top;
     alignment: center;
-    margin-right: 10px;
-    margin-left: 0;
+    margin-right: 20px;
 
 
 }
