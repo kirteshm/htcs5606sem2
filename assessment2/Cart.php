@@ -51,7 +51,7 @@ echo "</table>";
 <?php
 
 //free delivery over $300 purchase
-$delivery = 0; // default delivery charge
+$delivery = 25; // default delivery charge
 if ($total > 300) {
     $delivery = 0;
     echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
