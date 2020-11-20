@@ -162,13 +162,13 @@ p {
 }
 
 #middlecontent {
-    width: 90%;
+    width: 100%;
     vertical-align: top;
     display: inline-block;
     alignment: center;
     color: brown;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 .w3-input{
     border-radius: 16px;
