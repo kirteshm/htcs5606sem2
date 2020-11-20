@@ -49,8 +49,8 @@ if (!isset($_SESSION["userID"])) {
         <input type="submit" value="Login">
 
         </div>
-        <input type="submit" value="Register" src="register.php">
     </form>
+    <input type="submit" value="Register" src="register.php" align="center">
     <?php
 }
 else{
