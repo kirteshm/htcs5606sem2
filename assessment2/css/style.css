@@ -26,11 +26,13 @@ p {
 
 .logo {
     position: absolute;
-    top: 15px;
+    width: 50%;
+    height: auto;
+    top: 20px;
     animation-name: movingLogo;
     animation-duration: 4s;
     animation-iteration-count: unset;
-    border-radius: 16px;
+    border-radius: 30px;
 }
 
 /* Header Pictures */
