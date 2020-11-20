@@ -45,11 +45,11 @@ $conn = createDatabaseConnection();
 $sql = "select * from orders where userID = $userID";
 $result = mysqli_query($conn, $sql);
 $sql2 = "select * from orderline where orderID = $orderID";
-/*while ($row = $result->fetch_assoc()) {
+while ($row = $result->fetch_assoc()) {
+    $orderID =$_SESSION["orderID"];
+    //$orderID = $row["orderID"];
 
-    $orderID = $row["orderID"];
-    $orderID++;
-}*/
+}
 //delivery charges
 $delivery = 0;
 if ($total>300){
