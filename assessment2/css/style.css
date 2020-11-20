@@ -179,6 +179,10 @@ p {
     color: maroon;
     margin: 4px 2px;
 }
+
+.w3-container{
+    border-radius: 12px;
+}
 .product img {
     width: 100px;
     height: 150px;
