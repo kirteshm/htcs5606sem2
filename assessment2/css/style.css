@@ -170,7 +170,10 @@ p {
     margin-right: 5px;
     margin-left: 10px;
 }
-
+.w3-input{
+    border-radius: 12px;
+    width: 50%;
+}
 .product img {
     width: 100px;
     height: 150px;
