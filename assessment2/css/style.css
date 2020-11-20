@@ -163,9 +163,9 @@ p {
 
 #middlecontent {
     width: 60%;
-    display: inline-block;
     vertical-align: top;
-    alignment: center;
+   /* display: inline-block; */
+   /* alignment: center; */
     color: brown;
 }
 
