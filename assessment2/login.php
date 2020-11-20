@@ -47,7 +47,9 @@ if (!isset($_SESSION["userID"])) {
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
+
         </div>
+        <input type="submit" value="Register" src="register.php">
     </form>
     <?php
 }
