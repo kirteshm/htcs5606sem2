@@ -261,6 +261,17 @@ p {
     display: inline-block;
     font-size: 12px;
     margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 
 
