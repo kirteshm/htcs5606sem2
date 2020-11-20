@@ -12,8 +12,6 @@
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
-$i = 0;
-
 
 echo "<h2 align='center'>Shopping Cart</h2>";
 
@@ -24,7 +22,7 @@ echo "<table class='cartdetails' style='width: 90%'>
             <th>Price Each</th>
             <th>Total Price</th>
             </tr>";
-
+$i = 0;
 while ($i<sizeof($orderedProductsIDs)) {
 
     $orderedProductsID = $orderedProductsIDs[$i];

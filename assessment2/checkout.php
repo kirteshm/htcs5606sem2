@@ -1,12 +1,15 @@
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <?php
 
 @session_start();
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
+echo "<div class = w3-container>";
 echo "<h2 align='center'>We have received your order. Thank you!</h2>";
-echo "<table class = invoice align='center' style='width:90%'>
-        <tr class='invoice'>
+echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
+        <tr>
         <th>Product Name</th>
         <th>Quantity</th>
         <th>Unit Price</th>
@@ -22,11 +25,10 @@ while ($i<sizeof($orderedProductsIDs)){
     $price = getProductPriceByProductID($orderedProductsID);
     $Totalprice = $price * $orderedProductsQty;
 
-    //echo "<p>Name: $productName and Qty: $orderedProductsQty Unit Price: $$price Total Price: $$Totalprice</p>";
-
     $total = $total + ($price*$orderedProductsQty);
 
     $i++;
+
     echo "<tr>
             <td align='center'>$productName</td>
             <td align='center'>$orderedProductsQty</td>
