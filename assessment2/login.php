@@ -47,10 +47,12 @@ if (!isset($_SESSION["userID"])) {
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
-
+            <form action="register.php" >
+                <button type="submit">Click</button>
+            </form>
         </div>
     </form>
-    <input type="submit" value="Register" src="register.php" align="center">
+
     <?php
 }
 else{
