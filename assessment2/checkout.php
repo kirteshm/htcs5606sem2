@@ -39,17 +39,18 @@ while ($i<sizeof($orderedProductsIDs)){
 
 }
 $userID = $_SESSION["userID"];
-$orderID =$_SESSION["orderID"];
 
+//below code where i had tried to get the current order number also displaying but had no luck.. pls fix it for me if you can
+/*$orderID =$_SESSION["orderID"];
 $conn = createDatabaseConnection();
 $sql = "select * from orders where userID = $userID";
 $result = mysqli_query($conn, $sql);
 $sql2 = "select * from orderline where orderID = $orderID";
 while ($row = $result->fetch_assoc()) {
     $orderID =$_SESSION["orderID"];
-    //$orderID = $row["orderID"];
+    $orderID = $row["orderID"];
+}*/
 
-}
 //delivery charges
 $delivery = 0;
 if ($total>300){
@@ -59,7 +60,7 @@ if ($total>300){
     $delivery = 25;
     $total = $total + $delivery;
 }
-echo "<h3 align='center'>Order ID:$orderID</h3>";
+//echo "<h3 align='center'>Order ID:$orderID</h3>";
 echo "</table>";
 echo "<h4 align='center'>Invoice Total: $$total</h4>";
 
