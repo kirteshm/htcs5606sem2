@@ -162,7 +162,8 @@ p {
 }
 
 #middlecontent {
-    width: 40%;
+    width: 60%;
+    display: inline-block;
     vertical-align: top;
     alignment: center;
     color: brown;

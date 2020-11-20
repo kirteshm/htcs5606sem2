@@ -35,7 +35,7 @@ while ($row = $result->fetch_assoc()) {
             <input class="w3-input" name="qty" type="number" placeholder="Quantity" min="0">
             <input class = button type="submit" value="Add to Cart" size="8"><br>
 
-        </form>
+        </form><br>
 
     </div>
     <?php
