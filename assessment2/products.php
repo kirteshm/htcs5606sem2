@@ -1,3 +1,4 @@
+<link rel = "stylesheet" type = "text/css" href = "css/style.css" >
 <?php
 @session_start();
 
@@ -29,8 +30,8 @@ while ($row = $result->fetch_assoc()) {
         <p>$<?php echo $row["pricePerUnit"]; ?> Each</p>
         <form action="addToCart.php" method="post">
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <input size="5" name="qty" type="number" placeholder="Quantity" min="0">
-            <input type="submit" value="Add to Cart" size="8"><br>
+            <input name="qty" type="number" placeholder="Quantity" min="0">
+            <input class = button type="submit" value="Add to Cart" size="8"><br>
 
         </form>
 
