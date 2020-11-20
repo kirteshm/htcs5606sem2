@@ -46,12 +46,12 @@ if (!isset($_SESSION["userID"])) {
         <div align="center">
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password"><br><br>
-        <input type="submit" value="Login" size="10">
+        <input class= button type="submit" value="Login">
         </div>
     </form>
         <form action="register.php" >
             <div align="center">
-            <button type="submit" style="size: 10px">Register</button>
+            <button class= button type="submit">Register</button>
             </div>
         </form>
 
