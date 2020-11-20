@@ -48,10 +48,12 @@ if (!isset($_SESSION["userID"])) {
         <input name="password" type="password" placeholder="Password"><br><br>
         <input type="submit" value="Login">
         </div>
-        <form style="alignment: center" action="register.php" >
-            <button type="submit">Register</button>
-        </form>
     </form>
+        <form action="register.php" >
+            <div align="center">
+            <button type="submit">Register</button>
+            </div>
+        </form>
 
     <?php
 }
