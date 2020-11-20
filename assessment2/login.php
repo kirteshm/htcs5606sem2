@@ -1,4 +1,5 @@
 <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
@@ -42,19 +43,14 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 <?php
 if (!isset($_SESSION["userID"])) {
     ?>
-    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+    <form class="w3-container w3-card-4 w3-light-grey" action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
         <h3 style="color: maroon" align="center">Please Login:</h3>
         <div align="center">
-        <input name="username" type="text" placeholder="Username">
-        <input name="password" type="password" placeholder="Password"><br><br>
+        <input class="w3-input" name="username" type="text" placeholder="Username">
+        <input class="w3-input" name="password" type="password" placeholder="Password"><br><br>
         <input class= button type="submit" value="Login">
         </div>
     </form>
-        <form action="register.php" >
-            <div align="center">
-            <button class= button type="submit">Register</button>
-            </div>
-        </form>
 
     <?php
 }
