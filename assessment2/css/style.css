@@ -156,15 +156,14 @@ p {
     width: 150px;
     display: inline-block;
     margin: 20px;
-    border-style: groove;
     height: 200px;
     text-align: center;
 }
 
 #middlecontent {
-    width: 30%;
+    width: 50%;
     vertical-align: top;
-   /* display: inline-block; */
+    display: inline-block;
     alignment: center;
     color: brown;
     margin-right: 20px;
