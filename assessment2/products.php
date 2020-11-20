@@ -32,7 +32,7 @@ while ($row = $result->fetch_assoc()) {
             <img src="<?php echo $row["productImage"]; ?>">
             <p>$<?php echo $row["pricePerUnit"]; ?> Each</p>
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <input class="w3-input" name="qty" type="number" placeholder="Quantity" min="0" size="8">
+            <input class="w3-input" name="qty" type="number" placeholder="Qty" min="0" size="8">
             <input class = button type="submit" value="Add to Cart" size="8"><br>
 
         </form><br>
