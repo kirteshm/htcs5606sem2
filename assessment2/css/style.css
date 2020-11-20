@@ -18,7 +18,7 @@ p {
     position: center;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
     height: 200px;
     border-radius: 12px;
     margin-top: 30px;
@@ -26,13 +26,11 @@ p {
 
 .logo {
     position: absolute;
-    width: 50%;
-    height: auto;
     top: 20px;
     animation-name: movingLogo;
     animation-duration: 4s;
     animation-iteration-count: unset;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 /* Header Pictures */
