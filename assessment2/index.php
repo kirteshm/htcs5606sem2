@@ -27,7 +27,7 @@
       <td id="leftside">
         <div id ="sideAdv">
           <img src = "images/food2.jpg" id="sideImage">
-          <p id = "text1">Welcome</p>
+          <p id = "text1">Welcome </p>
           <p id = "text2">The Pet food Shop</p>
         </div>
       </td>
