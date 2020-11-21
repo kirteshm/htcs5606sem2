@@ -43,7 +43,7 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-        echo "<div class = >";
+        echo "<div class = 'w3-table-all' >";
         echo "<h2 align='left'>The Pet Food Store Invoice Details</h2>";
         echo "<h3 align='left'>Order ID: ". $row["orderID"]."</h3>";
         echo "<p align='left'>Date & Time: " . $row["orderdate"] . "</p>";
