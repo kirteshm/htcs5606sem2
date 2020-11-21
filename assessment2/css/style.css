@@ -157,13 +157,11 @@ p {
 
 /* For main */
 .product {
-    width: 150px;
+    width: 200px;
     display: inline-block;
     margin: 20px;
-    height: 200px;
+    height: 150px;
     text-align: center;
-    vertical-align: top;
-    alignment: center;
 }
 
 #middlecontent {
