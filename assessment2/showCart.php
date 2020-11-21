@@ -32,7 +32,7 @@
                 </div>
             </td>
             <td>
-                <div>
+                <div style="width: 80%">
                     <?php include "Cart.php"; ?>
                 </div>
 

@@ -41,6 +41,7 @@ while ($i<sizeof($orderedProductsIDs)) {
     $i++;
 }
 echo "</table>";
+echo "</div>";
 ?>
 <br>
 <?php
