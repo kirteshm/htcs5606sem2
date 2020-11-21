@@ -141,7 +141,7 @@ p {
 #text1 {
     position: relative;
     top: -300px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: brown;
 }
@@ -173,6 +173,10 @@ p {
     margin-right: 10px;
     margin-left: 40px;
 }
+.w3-table-all {
+    alignment: center;
+}
+
 .w3-input{
     border-radius: 16px;
     text-align: center;

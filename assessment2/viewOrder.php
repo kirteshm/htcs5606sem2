@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
@@ -42,12 +43,11 @@ function createDatabaseConnection()
 
 //show the first query
     while ($row = $result->fetch_assoc()) {
-
+        echo "<div class = >";
         echo "<h2 align='left'>The Pet Food Store Invoice Details</h2>";
         echo "<h3 align='left'>Order ID: ". $row["orderID"]."</h3>";
         echo "<p align='left'>Date & Time: " . $row["orderdate"] . "</p>";
         echo "<h5>Shipping Address: " . $row["shipAddress"] . "</h5>";
-
 
     //second query
     $sql2 = "select * from orderline where orderID = " . $row["orderID"];
@@ -55,8 +55,8 @@ function createDatabaseConnection()
     //run the second query
     $result2 = mysqli_query($conn, $sql2);
 
-        echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
-               <tr class='invoice'>
+        echo "<table class='w3-table-all w3-card-4' style='width:80%'>
+               <tr>
                <th>Product Name  </th>
                <th>Product Quantity </th>
                <th>Total Price </th>
@@ -85,8 +85,8 @@ function createDatabaseConnection()
         $delivery = 25;
         $totalAll = $totalAll + $delivery;
     }
-
     echo "</table>";
+    echo "</div>";
     echo "<h3 align='left'>Total Invoice Price: $$totalAll</h3><br>";
 
 }
