@@ -180,8 +180,7 @@ p {
     color: maroon;
     box-shadow: 10px 10px 20px goldenrod;
     position: center;
-    margin-left: auto;
-    margin-right: auto;
+    alignment: center;
 }
 
 .w3-input{
