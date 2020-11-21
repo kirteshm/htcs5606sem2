@@ -157,7 +157,7 @@ p {
 
 /* For main */
 .product {
-    width: 200px;
+    width: 150px;
     display: inline-block;
     margin: 20px;
     height: 150px;
@@ -199,7 +199,7 @@ p {
 
 }
 .product img {
-    width: 100px;
+    width: 140px;
     height: 150px;
     margin-bottom: 20px;
 }
