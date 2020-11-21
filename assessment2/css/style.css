@@ -176,6 +176,9 @@ p {
 .w3-table-all {
     alignment: center;
     border: 5px solid maroon;
+    color: maroon;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .w3-input{
@@ -190,6 +193,9 @@ p {
     margin-top: 20px;
     border-radius: 12px;
     border: 2px solid maroon;
+    color: maroon;
+    vertical-align: top;
+    display: inline-block;
 }
 .product img {
     width: 100px;
