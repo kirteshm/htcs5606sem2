@@ -86,9 +86,9 @@ function createDatabaseConnection()
         $totalAll = $totalAll + $delivery;
     }
     echo "</table>";
-    echo "</div>";
-    echo "<h3 align='left'>Total Invoice Price: $$totalAll</h3><br>";
 
+    echo "<h3 align='left'>Total Invoice Price: $$totalAll</h3><br>";
+    echo "</div>";
 }
 
 function getProductNameByProductID($productID)

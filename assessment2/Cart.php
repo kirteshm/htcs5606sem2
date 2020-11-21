@@ -41,7 +41,7 @@ while ($i<sizeof($orderedProductsIDs)) {
     $i++;
 }
 echo "</table>";
-echo "</div>";
+
 ?>
 <br>
 <?php
@@ -73,6 +73,7 @@ else{
     Echo "Please Login to place the order";
 
 }
+echo "</div>";
     /**
  * @return Connection
  */

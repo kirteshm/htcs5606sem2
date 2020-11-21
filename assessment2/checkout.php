@@ -6,7 +6,7 @@
 
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
-echo "<div class>";
+echo "<div class = w3-container>";
 echo "<h2 align='center'>We have received your order. Thank you!</h2>";
 echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
         <tr>
@@ -64,7 +64,7 @@ if ($total>300){
 echo "</table>";
 echo "<h4 align='center'>Invoice Total: $$total</h4>";
 
-
+echo "</div>";
 
 /**
  * @return Connection
