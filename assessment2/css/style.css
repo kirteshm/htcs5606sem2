@@ -175,8 +175,7 @@ p {
 }
 .w3-table-all {
     alignment: center;
-    border-radius: 12px;
-    border: 2px solid maroon;
+    border: 5px solid maroon;
 }
 
 .w3-input{
@@ -187,7 +186,8 @@ p {
 }
 
 .w3-container{
-    alignment: top;
+    alignment: center;
+    margin-top: 20px;
     border-radius: 12px;
     border: 2px solid maroon;
 }
