@@ -162,6 +162,8 @@ p {
     margin: 20px;
     height: 200px;
     text-align: center;
+    vertical-align: top;
+    alignment: center;
 }
 
 #middlecontent {
@@ -169,7 +171,7 @@ p {
     vertical-align: top;
     display: inline-block;
     alignment: center;
-    color: brown;
+    color: maroon;
     margin-right: 10px;
     margin-left: 40px;
 }
