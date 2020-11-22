@@ -280,6 +280,7 @@ p {
 }
 
 .w3-container_w3-card-4_w3-light-grey {
+    display: inline-block;
     vertical-align: top;
     margin-top: 10px;
 
