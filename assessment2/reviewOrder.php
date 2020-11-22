@@ -32,7 +32,7 @@
                 </div>
             </td>
             <td style="alignment: top">
-                <div style="width: 90%" align="top">
+                <div style="width: 80%" >
                     <?php include "checkout.php"; ?>
                 </div>
 
