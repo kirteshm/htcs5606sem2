@@ -65,7 +65,7 @@ if (isset($_SESSION["userID"])){
     <form style="alignment: center" action="reviewOrder.php" method="post">
         <label><h4>Shipping Address</h4></label>
         <textarea name="shipAddress" rows="4" cols="60" placeholder="Shipping Address if Different"></textarea><br><br>
-        <input type="submit" value="Checkout Now">
+        <input class="button" type="submit" value="Checkout Now">
     </form>
    <?php
 }
