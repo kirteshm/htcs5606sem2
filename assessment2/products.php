@@ -25,7 +25,7 @@ while ($row = $result->fetch_assoc()) {
 
 
     ?>
-
+    <div class="middlecontent">
     <div class="product">
 
         <form class="w3-container w3-card-4 w3-light-grey" action="addToCart.php" method="post">
@@ -38,7 +38,7 @@ while ($row = $result->fetch_assoc()) {
 
         </form><br>
 
-    </div>
+    </div></div>
     <?php
 }
 ?>
