@@ -42,12 +42,12 @@
           <br><br>
               <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
-              <li class="w3-input"><a href="showCart.php">Shopping Cart</a></li>
+              <li class="w3-input"><a class="sidelink" href="showCart.php">My Shopping Cart</a></li>
           <?php
           @session_start();
             if (isset($_SESSION["userID"])){
               ?>
-          <li class="w3-input"><a href="yourOrder.php">My Orders</a></li><br>
+          <li class="w3-input"><a class="sidelink" href="yourOrder.php">My Orders</a></li><br>
 
           <?php
           }
