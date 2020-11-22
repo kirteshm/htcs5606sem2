@@ -42,13 +42,15 @@
           <br><br>
               <?php include "login.php"; ?><br>
               <?php include "category.php"; ?><br><br>
+          <div style="alignment: center"></div>
               <li class="button"><a href="showCart.php">My Shopping Cart</a></li>
           <?php
           @session_start();
             if (isset($_SESSION["userID"])){
               ?>
-          <li class="button"><a href="yourOrder.php">My Orders</a></li><br>
 
+          <li class="button"><a href="yourOrder.php">My Orders</a></li><br>
+            </div>
           <?php
           }
 
