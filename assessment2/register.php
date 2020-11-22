@@ -27,36 +27,36 @@
                     <div class="row">
                         <div>
                             <label>First Name:</label>
-                            <input class="w3-input" name="firstname" type="text" placeholder="First Name" required>
+                            <input class="input" name="firstname" type="text" placeholder="First Name" required>
                         </div>
                         <br>
                         <div>
                             <label>Last Name:</label>
-                            <input class="w3-input" name="lastname" type="text" placeholder="Last Name" required>
+                            <input class="input" name="lastname" type="text" placeholder="Last Name" required>
                         </div>
                         <br>
                         <div>
                             <label>Username:</label>
-                            <input class="w3-input" name="username" type="text" placeholder="Username" required>
+                            <input class="input" name="username" type="text" placeholder="Username" required>
                         </div>
                         <br>
                         <div>
                             <label>Password:</label>
-                            <input class="w3-input" name="password" type="password" placeholder="Password" required>
+                            <input class="input" name="password" type="password" placeholder="Password" required>
                         </div>
                         <br>
                         <div>
                             <label>Full Address:</label>
-                            <textarea class="w3-input" name="address" placeholder="Your Address"></textarea>
+                            <textarea class="input" name="address" placeholder="Your Address"></textarea>
                         </div>
                         <br><br>
                         <div>
                             <label>Phone Number </label>
-                            <input class="w3-input" name="phoneNumber" type="text" placeholder="Phone Number">
+                            <input class="input" name="phoneNumber" type="text" placeholder="Phone Number">
                         </div>
                         <br><br>
-                        <div>
-                            <input class = button type="submit" value="Submit">
+                        <div class="input-hover">
+                            <input class="input" type="submit" value="Submit">
                         </div>
                     </div>
 

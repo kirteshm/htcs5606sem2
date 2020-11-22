@@ -186,11 +186,10 @@ p {
 
 .w3-input{
     border-radius: 16px;
-
+    text-align: center;
     color: maroon;
     margin: 4px 2px;
-    float: right;
-    text-align: left;
+
 }
 
 .w3-container{
@@ -227,6 +226,12 @@ p {
     margin-left: 100px;
     float: right;
     text-align: left;
+    border-radius: 16px;
+    color: maroon;
+}
+.input-hover:hover{
+    background-color: maroon;
+    color: white;
 }
 
 .regform {
