@@ -47,7 +47,7 @@
                 @session_start();
                 if (isset($_SESSION["userID"])){
                     ?>
-                    <li class="button"><a href="yourOrder.php">My Orders</a></li><br>
+                    <li class="button"><a href="yourOrder.php">My Orders</a></li><br><br>
 
                     <?php
                 }
