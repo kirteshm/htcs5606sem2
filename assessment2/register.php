@@ -1,8 +1,10 @@
 <!Doctype Html>
+
 <html>
         <meta charset="UTF-8">
         <title>Register</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="js/script.js"></script>
 
         <body onload="moveAd(), moveText()">
@@ -25,36 +27,36 @@
                     <div class="row">
                         <div>
                             <label>First Name:</label>
-                            <input class="input" name="firstname" type="text" placeholder="First Name" required>
+                            <input class="w3-input" name="firstname" type="text" placeholder="First Name" required>
                         </div>
                         <br>
                         <div>
                             <label>Last Name:</label>
-                            <input class="input" name="lastname" type="text" placeholder="Last Name" required>
+                            <input class="w3-input" name="lastname" type="text" placeholder="Last Name" required>
                         </div>
                         <br>
                         <div>
                             <label>Username:</label>
-                            <input class="input" name="username" type="text" placeholder="Username" required>
+                            <input class="w3-input" name="username" type="text" placeholder="Username" required>
                         </div>
                         <br>
                         <div>
                             <label>Password:</label>
-                            <input class="input" name="password" type="password" placeholder="Password" required>
+                            <input class="w3-input" name="password" type="password" placeholder="Password" required>
                         </div>
                         <br>
                         <div>
                             <label>Full Address:</label>
-                            <textarea class="input" name="address" placeholder="Your Address"></textarea>
+                            <textarea class="w3-input" name="address" placeholder="Your Address"></textarea>
                         </div>
                         <br><br>
                         <div>
                             <label>Phone Number </label>
-                            <input class="input" name="phoneNumber" type="text" placeholder="Phone Number">
+                            <input class="w3-input" name="phoneNumber" type="text" placeholder="Phone Number">
                         </div>
                         <br><br>
                         <div>
-                            <input class="input" type="submit" value="Submit">
+                            <input class = button type="submit" value="Submit">
                         </div>
                     </div>
 
