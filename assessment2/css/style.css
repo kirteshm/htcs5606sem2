@@ -179,7 +179,6 @@ p {
     border: 10px solid maroon;
     color: maroon;
     box-shadow: 10px 10px 20px goldenrod;
-    alignment: center;
     text-align: center;
 }
 
@@ -196,6 +195,7 @@ p {
     border-radius: 12px;
     color: maroon;
     vertical-align: top;
+    text-align: center;
 
 }
 .product img {
