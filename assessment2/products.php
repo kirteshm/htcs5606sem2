@@ -26,9 +26,9 @@ while ($row = $result->fetch_assoc()) {
 
     ?>
 
-    <div>
+    <div class="product">
 
-        <form class="w3-container w3-card-4 w3-light-grey" action="addToCart.php" method="post">
+        <form action="addToCart.php" method="post">
             <p><?php echo $row["productName"]; ?></p>
             <img src="<?php echo $row["productImage"]; ?>">
             <p>$<?php echo $row["pricePerUnit"]; ?> Each</p>
