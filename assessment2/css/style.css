@@ -168,11 +168,9 @@ p {
 #middlecontent {
     width: 100%;
     vertical-align: top;
-    display: inline-block;
     alignment: center;
     color: maroon;
-    margin-right: 10px;
-    margin-left: 40px;
+
 }
 .w3-table-all {
     display: block;
