@@ -280,5 +280,6 @@ p {
 }
 .alignment{
     margin-top: 20px;
+    vertical-align: top;
 }
 
