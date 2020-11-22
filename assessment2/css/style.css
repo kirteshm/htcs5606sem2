@@ -109,12 +109,14 @@ p {
 }
 
 #leftside {
+    position: fixed;
     width: 20%;
     vertical-align: top;
 
 }
 
 #rightside {
+    position: fixed;
     width: 20%;
     vertical-align: top;
     alignment: center;
