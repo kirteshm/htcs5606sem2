@@ -50,7 +50,7 @@
       <change beforePath="$PROJECT_DIR$/../assessment2/viewOrder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../assessment2/welcome.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../assessment2/yourOrder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606076122956</updated>
-      <workItem from="1606076123979" duration="365000" />
+      <workItem from="1606076123979" duration="674000" />
     </task>
     <servers />
   </component>

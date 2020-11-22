@@ -280,7 +280,6 @@ p {
 }
 
 .section{
-    display: inline-block;
     vertical-align: top;
     content: inherit;
 }
