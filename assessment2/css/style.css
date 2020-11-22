@@ -278,4 +278,7 @@ p {
     text-decoration: none;
 }
 
+.setup {
+    display: inline-block;
+}
 
