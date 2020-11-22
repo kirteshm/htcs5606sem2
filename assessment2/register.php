@@ -56,7 +56,7 @@
                         </div>
                         <br><br>
                         <div class="input-hover">
-                            <input class="input" type="submit" value="Submit">
+                            <input class="button" type="submit" value="Submit">
                         </div>
                     </div>
 
