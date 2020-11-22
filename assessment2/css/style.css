@@ -222,7 +222,7 @@ p {
 }
 
 .input {
-    display: block;
+    display: inline-block;
     margin-left: 100px;
     float: right;
     text-align: left;
@@ -234,15 +234,11 @@ p {
     color: white;
 }
 
-.regform {
-    display: block;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 30%;
-}
+
+
 .regpic {
-    position:absolute;
-    //opacity: 70%;
+    position:relative;
+    opacity: 70%;
     top: 40%;
     left: 60%;
     width:auto;
