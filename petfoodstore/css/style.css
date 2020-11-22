@@ -278,8 +278,3 @@ p {
 .button a{
     text-decoration: none;
 }
-
-.section{
-    vertical-align: top;
-    content: inherit;
-}
