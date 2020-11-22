@@ -99,12 +99,12 @@
                 <br><br>
                 <?php include "login.php"; ?><br>
                 <?php include "category.php"; ?><br><br>
-                <li><a href="showCart.php">Shopping Cart</a></li>
+                <li class="button"><a href="showCart.php">Shopping Cart</a></li>
                 <?php
                 @session_start();
                 if (isset($_SESSION["userID"])){
                     ?>
-                    <li><a href="yourOrder.php">My Orders</a></li><br><br>
+                    <li class="button"><a href="yourOrder.php">My Orders</a></li><br><br>
 
                     <?php
                 }
