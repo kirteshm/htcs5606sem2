@@ -19,7 +19,7 @@
                     <li><a class="active">Register Now</a></li>
                 </ul>
             </div>
-
+            <div class = 'w3-table-all' >
             <div class="regform">
                 <form method="post" action="registernow.php" class="contact-form">
                     <div class="row">
@@ -61,7 +61,7 @@
                 </form>
 
             </div>
-
+            </div>
 
             <div><img class="regpic" src="images/register.png" alt="Register pic"</div>
 

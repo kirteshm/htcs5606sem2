@@ -9,7 +9,7 @@
 $orderedProductsIDs = $_SESSION["orderedProductIds"];
 $orderedProductsQtys = $_SESSION["orderedProductQtys"];
 
-echo "<div class = w3-container>";
+echo "<div class = 'w3-table-all' >";
 echo "<h2 align='center'>Shopping Cart</h2>";
 
 echo "<table class='w3-table-all w3-card-4' align='center' style='width:90%'>
