@@ -222,6 +222,12 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.regform {
+    display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
 
 .input {
     display: inline-block;
