@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>The Pet Food Store</title>
     <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="js/script.js"></script>
 </head>
 <body onload="moveAd(), moveText(), invoice()">
