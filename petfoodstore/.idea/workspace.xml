@@ -50,7 +50,7 @@
       <change beforePath="$PROJECT_DIR$/../assessment2/viewOrder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../assessment2/welcome.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../assessment2/yourOrder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +85,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606076122956</updated>
-      <workItem from="1606076123979" duration="1557000" />
+      <workItem from="1606076123979" duration="2456000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1181" y="287" key="FileChooserDialogImpl" timestamp="1606077615625">
+      <screen x="-1920" y="8" width="1920" height="1050" />
+    </state>
+    <state x="-1181" y="287" key="FileChooserDialogImpl/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606077615625" />
   </component>
 </project>

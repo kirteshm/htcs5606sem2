@@ -35,8 +35,8 @@
                 </div>
             </td>
             <td id="middlecontent">
-                <div>
-                    <div align="center"> <img src="images/welcome.jpg" id="welcome"></div>
+                <div style="width: 80%">
+                    <div align="center" style="width: 80%"> <img src="images/welcome.jpg" id="welcome"></div>
                     <h2 align="center">You have been successfully registered</h2>
                     <h3 align="center"><a href="index.php">Start Shopping Now!</a></h3>
                 </div>
