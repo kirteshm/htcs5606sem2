@@ -213,13 +213,7 @@ p {
     width: 20px;
 }
 
-/* Registration Form Layout */
-.row {
-    display: block;
-    float: left;
-    text-align: left;
-    color: brown;
-}
+
 
 .input {
     display: inline-block;
@@ -233,7 +227,6 @@ p {
     background-color: maroon;
     color: white;
 }
-
 
 
 .regpic {
