@@ -186,9 +186,11 @@ p {
 
 .w3-input{
     border-radius: 16px;
-    text-align: center;
+
     color: maroon;
     margin: 4px 2px;
+    float: right;
+    text-align: left;
 }
 
 .w3-container{
