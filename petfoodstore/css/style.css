@@ -1,0 +1,279 @@
+/* body */
+body {
+    width: auto;
+    margin: 30px 20px 20px 20px;
+    background-color: blanchedalmond;
+    z-index: -1;
+    font-family: Calibri, serif;
+}
+
+p {
+    color: brown;
+}
+
+/* Header */
+.header img {
+    display: block;
+    box-shadow: 10px 10px 20px goldenrod;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    animation-name: movingLogo;
+    animation-duration: 4s;
+    animation-iteration-count: unset;
+    border-radius: 20px;
+}
+
+/* Header Pictures */
+@keyframes movingLogo {
+    0% {
+        left: 100px;
+        transform: rotate(0deg);
+    }
+    50% {
+        left: 80%;
+        transform: rotate(180deg);
+    }
+    100% {
+        left: 100px;
+        transform: rotate(360deg);
+    }
+}
+/* page headings */
+#dogfp {
+	font-size: 40px;
+    text-shadow: 3px 3px 5px brown;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 15px;
+}
+
+/* Menu */
+#nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 20px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*hover */
+#nav li a:hover {
+    background-color: #4CAF50;
+}
+
+#nav .active {
+    background-color: #4CAF50;
+}
+
+/* footer */
+#footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+#welcome {
+    height: auto;
+    max-width: 90%;
+}
+
+/* main */
+#maintable {
+    width: 100%;
+}
+
+#leftside {
+    width: 20%;
+    vertical-align: top;
+
+
+}
+
+#rightside {
+    width: 20%;
+    vertical-align: top;
+    alignment: center;
+    padding-right: 20px;
+
+
+}
+
+#sideAdv {
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sideImage {
+    height: 700px;
+    position: relative;
+    vertical-align: top;
+    padding-top: 10px;
+    opacity: 60%;
+    z-index: -1;
+
+}
+
+#text1 {
+    position: relative;
+    top: -300px;
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+#text2 {
+    position: relative;
+    top: -400px;
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+    display: none;
+}
+
+/* For main */
+.product {
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    height: 150px;
+
+}
+
+#middlecontent {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    alignment: center;
+    color: maroon;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.w3-table-all {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    color: maroon;
+    box-shadow: 10px 10px 20px goldenrod;
+    text-align: center;
+    alignment: center;
+}
+
+.w3-input{
+    border-radius: 16px;
+    text-align: center;
+    color: maroon;
+    margin: 4px 2px;
+
+}
+
+.w3-container{
+    border-radius: 12px;
+    color: maroon;
+    vertical-align: top;
+    text-align: center;
+
+}
+.product img {
+    width: 120px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.qty {
+    width: 30px;
+}
+
+.cartInput {
+    width: 20px;
+}
+
+/* Registration Form Layout */
+.row {
+    display: block;
+    float: left;
+    text-align: left;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.regform {
+    display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+.input {
+    display: inline-block;
+    margin-left: 100px;
+    float: right;
+    text-align: left;
+    color: maroon;
+}
+.input-hover:hover{
+    background-color: maroon;
+    color: white;
+}
+
+
+.regpic {
+    position:absolute;
+    top: 40%;
+    left: 60%;
+    width:auto;
+    height:auto;
+    //z-index: 2;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+.button {
+    background-color: white;
+    color: maroon;
+    border: 2px solid maroon;
+}
+
+.button:hover {
+    background-color: maroon;
+    color: white;
+}
+.button a{
+    text-decoration: none;
+}
