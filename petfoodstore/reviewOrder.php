@@ -32,7 +32,7 @@
                 </div>
             </td>
             <td id="middlecontent">
-                <div >
+                <div style="width: 80%;">
                     <?php include "checkout.php"; ?>
                 </div>
 
