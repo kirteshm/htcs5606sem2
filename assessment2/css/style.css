@@ -213,7 +213,15 @@ p {
     width: 20px;
 }
 
-
+/* Registration Form Layout */
+.row {
+    display: block;
+    float: left;
+    text-align: left;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .input {
     display: inline-block;
@@ -230,7 +238,7 @@ p {
 
 
 .regpic {
-    position:relative;
+    position:absolute;
     opacity: 70%;
     top: 40%;
     left: 60%;
