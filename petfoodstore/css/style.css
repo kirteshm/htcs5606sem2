@@ -285,3 +285,7 @@ p {
     margin-top: 10px;
 
 }
+.section{
+    display: block;
+    vertical-align: top;
+}

@@ -1,8 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71a9a610-8e90-4ace-95ae-eb09530ac79d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/WebContent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/Cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/aboutus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/addToCart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/checkout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/css.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/aboutus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/cat1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/cat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/catfood3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/catsmain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/food2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/main2image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/mainimage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/petfoodmain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/petfoodmain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/register.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/images/welcome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/registernow.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/reviewOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/showCart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/viewOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/welcome.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assessment2/yourOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kf01P35dTmCLKXegE1azROM1qs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71a9a610-8e90-4ace-95ae-eb09530ac79d" name="Default Changelist" comment="" />
+      <created>1606076122956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606076122956</updated>
+      <workItem from="1606076123979" duration="365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
