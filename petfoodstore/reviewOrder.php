@@ -31,8 +31,8 @@
                     <p id = "text2">The Pet food Shop</p>
                 </div>
             </td>
-            <td style="alignment: top">
-                <div style="width: 80%" >
+            <td id="middlecontent">
+                <div >
                     <?php include "checkout.php"; ?>
                 </div>
 
