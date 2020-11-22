@@ -25,7 +25,7 @@ p {
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     top: 20px;
     animation-name: movingLogo;
     animation-duration: 4s;
