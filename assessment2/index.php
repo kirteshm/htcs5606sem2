@@ -32,7 +32,7 @@
         </div>
       </td>
       <td style="alignment: top">
-          <div>
+          <div style="alignment: top">
               <?php include "products.php"; ?>
           </div>
 
