@@ -234,7 +234,6 @@ p {
     margin-left: 100px;
     float: right;
     text-align: left;
-    border-radius: 16px;
     color: maroon;
 }
 .input-hover:hover{
@@ -245,7 +244,6 @@ p {
 
 .regpic {
     position:absolute;
-    opacity: 70%;
     top: 40%;
     left: 60%;
     width:auto;
