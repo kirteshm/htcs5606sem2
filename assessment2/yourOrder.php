@@ -33,7 +33,7 @@
                     <p id = "text2">The Pet food Shop</p>
                 </div>
             </td>
-            <td>
+            <td style="alignment: top">
                 <div style="width: 80%">
                     <?php include "viewOrder.php"; ?>
                     <br><br>
