@@ -55,7 +55,7 @@
                             <input class="input" name="phoneNumber" type="text" placeholder="Phone Number">
                         </div>
                         <br><br>
-                        <div class="input-hover">
+                        <div>
                             <input class="button" type="submit" value="Submit">
                         </div>
                     </div>
