@@ -50,6 +50,7 @@ echo "</table>";
 $delivery = 25; // default delivery charge
 if ($total > 300) {
     $delivery = 0;
+    echo "<div margin-left = 20px>";
     echo "<h2 style='alignment: center'>Congratulation! you qualified for Free Delivery</h2>";
     $total1 = $total;
 }else{
@@ -73,6 +74,7 @@ else{
     Echo "Please Login to place the order";
 
 }
+echo "</div>";
 echo "</div>";
     /**
  * @return Connection
