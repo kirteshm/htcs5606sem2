@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    color: brown;
+    color: maroon;
 }
 
 /* Header */
@@ -23,7 +23,7 @@ p {
     border-radius: 12px;
     margin-top: 30px;
 }
-
+/* logo animation using css */
 .logo {
     position: absolute;
     top: 20px;
@@ -51,7 +51,7 @@ p {
 /* page headings */
 #dogfp {
 	font-size: 40px;
-    text-shadow: 3px 3px 5px brown;
+    text-shadow: 3px 3px 5px maroon;
 	text-align: center;
 	font-weight: bold;
 	color: white;
@@ -65,10 +65,10 @@ p {
     margin: 20px 0px;
     padding: 0;
     overflow: hidden;
-    background-color: brown;
+    background-color: maroon;
 
 }
-
+/*nav bar*/
 #nav li {
     float: left;
 }
@@ -92,11 +92,11 @@ p {
 
 /* footer */
 #footer {
-    background-color: brown;
+    background-color: maroon;
     text-align: center;
     color: white;
 }
-
+/*welcome picture*/
 #welcome {
     height: auto;
     max-width: 90%;
@@ -138,13 +138,13 @@ p {
     z-index: -1;
 
 }
-
+/* texts inside the leftside image*/
 #text1 {
     position: relative;
     top: -300px;
     font-size: 40px;
     font-weight: bold;
-    color: brown;
+    color:maroon;
 }
 
 #text2 {
@@ -152,7 +152,7 @@ p {
     top: -400px;
     font-size: 40px;
     font-weight: bold;
-    color: brown;
+    color:maroon;
     display: none;
 }
 
@@ -218,7 +218,7 @@ p {
     display: block;
     float: left;
     text-align: left;
-    color: brown;
+    color:maroon;
     margin-top: 20px;
     margin-bottom: 20px;
 }

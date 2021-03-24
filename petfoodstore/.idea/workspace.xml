@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71a9a610-8e90-4ace-95ae-eb09530ac79d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/WebContent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/Cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/aboutus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/addToCart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/checkout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/css.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/css/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/aboutus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/birdfood3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/cat1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/cat2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/catfood3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/catsmain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/dog3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/food2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/main2image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/mainimage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/petfoodmain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/petfoodmain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/register.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/images/welcome.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/registernow.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/reviewOrder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/showCart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/viewOrder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/welcome.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assessment2/yourOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +13,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kf01P35dTmCLKXegE1azROM1qs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Uni/19102020/Case Study 1 Demo-20201019/HTCSDatabaseProject" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,16 +39,45 @@
       <updated>1606076122956</updated>
       <workItem from="1606076123979" duration="2694000" />
       <workItem from="1606079389244" duration="362000" />
+      <workItem from="1606083100329" duration="179000" />
+      <workItem from="1606090105929" duration="758000" />
+      <workItem from="1606092208051" duration="48000" />
+      <workItem from="1606092344323" duration="1275000" />
+      <workItem from="1606099613260" duration="104000" />
     </task>
+    <task id="LOCAL-00001" summary="minor changes">
+      <created>1606083191105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606083191105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-1181" y="287" key="FileChooserDialogImpl" timestamp="1606079175363">
+    <state x="-1370" y="98" key="CommitChangelistDialog2" timestamp="1606083190486">
       <screen x="-1920" y="8" width="1920" height="1050" />
     </state>
-    <state x="-1181" y="287" key="FileChooserDialogImpl/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606079175363" />
+    <state x="-1370" y="98" key="CommitChangelistDialog2/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606083190486" />
+    <state x="-1181" y="287" key="FileChooserDialogImpl" timestamp="1606099709890">
+      <screen x="-1920" y="8" width="1920" height="1050" />
+    </state>
+    <state x="-1181" y="287" key="FileChooserDialogImpl/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606099709890" />
+    <state x="-1369" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606083195337">
+      <screen x="-1920" y="8" width="1920" height="1050" />
+    </state>
+    <state x="-1369" y="265" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606083195337" />
+    <state x="-1144" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606083173493">
+      <screen x="-1920" y="8" width="1920" height="1050" />
+    </state>
+    <state x="-1144" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.8.1920.1050@-1920.8.1920.1050" timestamp="1606083173493" />
   </component>
 </project>
